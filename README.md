@@ -2,15 +2,15 @@
 
 ## Steps to build and run the app on local machine
 
-## Step 1 : Install Node.js® and npm[https://nodejs.org/en/download/] if they are not already on your machine.
-## Step 2 : Verify that you are running at least Node.js version 8.x or greater and npm version 5.x or greater by running node -v and npm -v in a terminal/console window.
-## Step 3 : Install Angular CLI globally by running following commmand `npm install -g @angular/cli`
-## Step 4 : Clone the github repository by using followign command `git clone https://github.com/madangopalsingh/ranking-demo-app.git`
-## Step 5 : Go into the project directory by runnging `cd ranking-demo-app`
-## Step 6 : Run the command `npm install`
-## Step 7 : Run the command `ng build`
-## Step 8 : Run the command `ng serve --open --port 4200`
-## Step 9 : Go to the [URL (http://localhost:4200/)to access the app on local machine
+### Step 1 : Install Node.js® and npm[https://nodejs.org/en/download/] if they are not already on your machine.
+### Step 2 : Verify that you are running at least Node.js version 8.x or greater and npm version 5.x or greater by running `node -v` and `npm -v` in a terminal/console window.
+### Step 3 : Install Angular CLI globally by running following commmand `npm install -g @angular/cli`
+### Step 4 : Clone the github repository by using followign command `git clone https://github.com/madangopalsingh/ranking-demo-app.git`
+### Step 5 : Go into the project directory by runnging `cd ranking-demo-app`
+### Step 6 : Run the command `npm install`
+### Step 7 : Run the command `ng build`
+### Step 8 : Run the command `ng serve --open --port 4200`
+### Step 9 : Go to the [URL (http://localhost:4200/)to access the app on local machine
 
 # Other important commands related to angular App mensioned below
 
