@@ -2,14 +2,20 @@
 {{rankingData | json}}
 
 <h2>Produced Sample Output:</h2>
-<ul>
+<table>
+  <tr>
+    <th>Parent</th>
+    <th>Child Nodes</th>
+  </tr>
+  <tr>
   <ng-template #recursiveList let-rankingData>
-    <li *ngFor="let item of rankingData">
+    <tr *ngFor="let item of rankingData">
       {{item.Name}}
-      <ul *ngIf="item.Nodes !== null && item.Nodes.length > 0">
+      <td *ngIf="item.Nodes !== null && item.Nodes.length > 0">
         <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: item.Nodes }"></ng-container>
-      </ul>
-    </li>
+      </td>
+    </tr>
   </ng-template>
   <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: rankingData }"></ng-container>
-</ul>
+</tr>
+</table>
