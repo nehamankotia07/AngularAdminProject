@@ -1,0 +1,12 @@
+{{rankingData | json}}
+<ul>
+  <ng-template #recursiveList let-rankingData>
+    <li *ngFor="let item of rankingData">
+      {{item.Name}}
+      <ul *ngIf="item.Nodes !== null && item.Nodes.length > 0">
+        <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: item.Nodes }"></ng-container>
+      </ul>
+    </li>
+  </ng-template>
+  <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: rankingData }"></ng-container>
+</ul>
