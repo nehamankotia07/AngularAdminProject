@@ -1,3 +1,7 @@
+<input type="text" name="dataNameText" placeholder="Name" [(ngModel)]="dataName" #dataNameText="ngModel">
+<input type="text" name="parentIdText" placeholder="parentId" [(ngModel)]="parentId" #parentIdText="ngModel">
+<button (click)="addDatainRankingData()" >Add</button>
+
 <h2>Given Sample JSON:</h2>
 {{rankingData | json}}
 
