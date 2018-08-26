@@ -1,6 +1,12 @@
+<h2>Add node using Parent Id</h2>
 <input type="text" name="dataNameText" placeholder="Name" [(ngModel)]="dataName" #dataNameText="ngModel">
 <input type="text" name="parentIdText" placeholder="parentId" [(ngModel)]="parentId" #parentIdText="ngModel">
 <button (click)="addDatainRankingData()" >Add</button>
+
+<h2>Update node using nodeId</h2>
+<input type="text" name="dataNameUpdateText" placeholder="Name" [(ngModel)]="dataNameUpdate" #dataNameUpdateText="ngModel">
+<input type="text" name="nodeIdText" placeholder="nodeId" [(ngModel)]="nodeId" #nodeIdText="ngModel">
+<button (click)="updateDatainRankingData()" >Update</button>
 
 <h2>Given Sample JSON:</h2>
 {{rankingData | json}}
