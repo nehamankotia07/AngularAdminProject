@@ -28,7 +28,7 @@ export class RankingComponent implements OnInit {
   public findRankingByParentIdAndAdd(idOfNode: number, parentId: number, dataName: string, rankingD: any) {
     if (!this.nodeFound) {
       for(let rd of rankingD) {
-        if (rd != null) {
+        //if (rd != null) {
           if(rd.Id == parentId) {
             if (rd.Nodes == null) {
               rd.Nodes = [];
@@ -39,11 +39,13 @@ export class RankingComponent implements OnInit {
             this.nodeFound = true;
             return;
           } else {
-            this.findRankingByParentIdAndAdd(idOfNode, parentId, dataName, rd.Nodes);
+            if (rd.Nodes != null){
+              this.findRankingByParentIdAndAdd(idOfNode, parentId, dataName, rd.Nodes);
+            }
           }
-        } else {
-          return;
-        }
+        //} else {
+        //  return;
+        //}
       }
     } else {
       return;
