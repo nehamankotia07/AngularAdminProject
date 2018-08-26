@@ -9,7 +9,6 @@ import { RankData } from '../rankdata'
 })
 export class RankingComponent implements OnInit {
 
-
   rankingData: any = [];
   nodeFound: boolean = false;
 
