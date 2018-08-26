@@ -19,6 +19,8 @@ export class RankingComponent implements OnInit {
   dataNameUpdate: string;
   nodeId: number;
 
+  statusMessage: string = "";
+
   constructor(private rankingService: RankingService) { }
 
   ngOnInit() {
@@ -73,11 +75,20 @@ export class RankingComponent implements OnInit {
   public addDatainRankingData(): void {
     this.nodeFound = false;
     this.findRankingByParentIdAndAdd(this.parentId+100, this.parentId, this.dataName, this.rankingData);
+    if(this.nodeFound) {
+      this.statusMessage = "Node added successfully.";
+    } else {
+      this.statusMessage = "Node not found.";
+    }
   }
 
   public updateDatainRankingData(): void {
     this.nodeFound = false;
     this.findRankingByParentIdAndUpdate(this.nodeId, this.dataNameUpdate, this.rankingData);
-
+    if(this.nodeFound) {
+      this.statusMessage = "Node updated successfully.";
+    } else {
+      this.statusMessage = "Node not found.";
+    }
   }
 }
