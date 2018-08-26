@@ -19,6 +19,8 @@ export class RankingComponent implements OnInit {
   dataNameUpdate: string;
   nodeId: number;
 
+  dataNameSearch: string;
+
   statusMessage: string = "";
 
   constructor(private rankingService: RankingService) { }
@@ -72,6 +74,23 @@ export class RankingComponent implements OnInit {
     }
   }
 
+  public findRankingByName(dataName: string, rankingD: any) {
+    if (!this.nodeFound) {
+      for(let rd of rankingD) {
+          if(rd.Name == dataName) {
+            this.nodeFound = true;
+            return rd;
+          } else {
+            if (rd.Nodes != null){
+              this.findRankingByName(dataName, rd.Nodes);
+            }
+          }
+      }
+    } else {
+      return null;
+    }
+  }
+
   public addDatainRankingData(): void {
     this.nodeFound = false;
     this.findRankingByParentIdAndAdd(this.parentId+100, this.parentId, this.dataName, this.rankingData);
@@ -89,6 +108,16 @@ export class RankingComponent implements OnInit {
       this.statusMessage = "Node updated successfully.";
     } else {
       this.statusMessage = "Node not found.";
+    }
+  }
+
+  public searchDatainRankingData(): void {
+    this.nodeFound = false;
+    let rd = this.findRankingByName(this.dataNameSearch, this.rankingData);
+    if(this.nodeFound) {
+      this.statusMessage = "Node found with name " + this.dataNameSearch + ": " + JSON.stringify(rd);
+    } else {
+      this.statusMessage = "Node not found with name: " + this.dataNameSearch;
     }
   }
 }

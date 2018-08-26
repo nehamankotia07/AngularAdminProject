@@ -3,10 +3,15 @@
 <input type="text" name="parentIdText" placeholder="parentId" [(ngModel)]="parentId" #parentIdText="ngModel">
 <button (click)="addDatainRankingData()" >Add</button>
 
-<h2>Update node using nodeId</h2>
+<h2>Update node using Node Id</h2>
 <input type="text" name="dataNameUpdateText" placeholder="Name" [(ngModel)]="dataNameUpdate" #dataNameUpdateText="ngModel">
 <input type="text" name="nodeIdText" placeholder="nodeId" [(ngModel)]="nodeId" #nodeIdText="ngModel">
 <button (click)="updateDatainRankingData()" >Update</button>
+
+<h2>Search node using Name</h2>
+<input type="text" name="dataNameSearchText" placeholder="Name" [(ngModel)]="dataNameSearch" #dataNameSearchText="ngModel">
+<button (click)="searchDatainRankingData()" >Search</button>
+
 <br />
 <h3>{{statusMessage}}</h3>
 
