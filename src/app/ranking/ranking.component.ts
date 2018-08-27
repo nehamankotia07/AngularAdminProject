@@ -119,7 +119,13 @@ export class RankingComponent implements OnInit {
       this.rankingData = this.dataSearchResult;
       this.statusMessage = "Node found with name " + this.dataNameSearch + ": " + JSON.stringify(this.dataSearchResult);
     } else {
-      this.statusMessage = "Node not found with name: " + this.dataNameSearch;
+      if(this.dataNameSearch == "") {
+        this.getRankingData();
+      } else {
+        this.rankingData = [];
+        this.statusMessage = "Node not found with name: " + this.dataNameSearch;
+      }
+
     }
   }
 }
