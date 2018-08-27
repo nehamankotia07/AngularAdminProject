@@ -12,12 +12,13 @@ export class RankingComponent implements OnInit {
   rankingData: any = [];
   sampleRankingData: any = [];
   nodeFound: boolean = false;
+  nodeSelectList: any = [];
 
   dataName: string;
-  parentId: number;
+  parentId: number = -1;
 
   dataNameUpdate: string;
-  nodeId: number;
+  nodeId: number = -1;
 
   dataNameSearch: string;
   dataSearchResult: any;
@@ -32,7 +33,22 @@ export class RankingComponent implements OnInit {
 
   public getRankingData(): void {
     this.rankingData = this.rankingService.getRankingData();
+    this.populateSelectListOfNodes();
     this.sampleRankingData = this.rankingService.getRankingData();
+  }
+
+  public getNodes(rankingData: any) {
+    for(let rd of rankingData) {
+      this.nodeSelectList.push({id: rd.Id, name: rd.Name});
+      if (rd.Nodes != null){
+        this.getNodes(rd.Nodes);
+      }
+    }
+  }
+
+  public populateSelectListOfNodes(): void {
+    this.nodeSelectList = [];
+    this.getNodes(this.rankingData);
   }
 
   public findRankingByParentIdAndAdd(idOfNode: number, parentId: number, dataName: string, rankingD: any) {
@@ -46,6 +62,7 @@ export class RankingComponent implements OnInit {
                Id: idOfNode, Name: dataName, Nodes: null
             })
             this.nodeFound = true;
+            this.populateSelectListOfNodes();
             return;
           } else {
             if (rd.Nodes != null){
@@ -64,6 +81,7 @@ export class RankingComponent implements OnInit {
           if(rd.Id == nodeId) {
             rd.Name = dataName;
             this.nodeFound = true;
+            this.populateSelectListOfNodes();
             return;
           } else {
             if (rd.Nodes != null){

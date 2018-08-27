@@ -451,7 +451,10 @@
                       <div class="hr-line-dashed"></div>
                       <div class="form-group row"><label class="col-sm-2 col-form-label">Node Id</label>
                           <div class="col-sm-10">
-                            <input type="text" class="form-control" name="parentIdText" placeholder="Node Id" [(ngModel)]="parentId" #parentIdText="ngModel">
+                            <select #parentNodeId="ngModel" class="form-control m-b" [name]="parentNodeId" [(ngModel)]="parentId" id="parentNodeId">
+                              <option value="-1" disabled [selected]="true">Select Node</option>
+                              <option *ngFor="let node of nodeSelectList" value="{{node.id}}">{{node.name}}</option>
+                            </select>
                           </div>
                       </div>
                       <div class="hr-line-dashed"></div>
@@ -479,7 +482,10 @@
                       <div class="hr-line-dashed"></div>
                       <div class="form-group row"><label class="col-sm-2 col-form-label">Node Id</label>
                           <div class="col-sm-10">
-                            <input type="text" class="form-control" name="nodeIdText" placeholder="Node Id" [(ngModel)]="nodeId" #nodeIdText="ngModel">
+                            <select #nodeIdModel="ngModel" class="form-control m-b" [name]="nodeIdModel" [(ngModel)]="nodeId" id="nodeId">
+                              <option value="-1" disable [selected]="true">Select Node</option>
+                              <option *ngFor="let node of nodeSelectList" value="{{node.id}}">{{node.name}}</option>
+                            </select>
                           </div>
                       </div>
                       <div class="hr-line-dashed"></div>
