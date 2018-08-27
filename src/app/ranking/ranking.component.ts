@@ -79,7 +79,7 @@ export class RankingComponent implements OnInit {
   public findRankingByName(dataName: string, rankingD: any) {
     if (!this.nodeFound) {
       for(let rd of rankingD) {
-          if(rd.Name == dataName) {
+          if(rd.Name.toLowerCase() == dataName.toLowerCase()) {
             this.nodeFound = true;
             this.dataSearchResult = [rd];
           } else {
@@ -121,6 +121,7 @@ export class RankingComponent implements OnInit {
     } else {
       if(this.dataNameSearch == "") {
         this.getRankingData();
+        this.statusMessage = "";
       } else {
         this.rankingData = [];
         this.statusMessage = "Node not found with name: " + this.dataNameSearch;
