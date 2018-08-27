@@ -19,6 +19,7 @@ export class RankingComponent implements OnInit {
   nodeId: number;
 
   dataNameSearch: string;
+  dataSearchResult: any;
 
   statusMessage: string = "";
 
@@ -78,15 +79,13 @@ export class RankingComponent implements OnInit {
       for(let rd of rankingD) {
           if(rd.Name == dataName) {
             this.nodeFound = true;
-            return rd;
+            this.dataSearchResult = [rd];
           } else {
             if (rd.Nodes != null){
               this.findRankingByName(dataName, rd.Nodes);
             }
           }
       }
-    } else {
-      return null;
     }
   }
 
@@ -111,10 +110,12 @@ export class RankingComponent implements OnInit {
   }
 
   public searchDatainRankingData(): void {
+    this.getRankingData();
     this.nodeFound = false;
-    let rd = this.findRankingByName(this.dataNameSearch, this.rankingData);
+    this.findRankingByName(this.dataNameSearch, this.rankingData);
     if(this.nodeFound) {
-      this.statusMessage = "Node found with name " + this.dataNameSearch + ": " + JSON.stringify(rd);
+      this.rankingData = this.dataSearchResult;
+      this.statusMessage = "Node found with name " + this.dataNameSearch + ": " + JSON.stringify(this.dataSearchResult);
     } else {
       this.statusMessage = "Node not found with name: " + this.dataNameSearch;
     }
