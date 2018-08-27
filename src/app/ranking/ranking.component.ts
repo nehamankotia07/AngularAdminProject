@@ -10,6 +10,7 @@ import { RankData } from '../rankdata'
 export class RankingComponent implements OnInit {
 
   rankingData: any = [];
+  sampleRankingData: any = [];
   nodeFound: boolean = false;
 
   dataName: string;
