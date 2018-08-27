@@ -31,6 +31,7 @@ export class RankingComponent implements OnInit {
 
   public getRankingData(): void {
     this.rankingData = this.rankingService.getRankingData();
+    this.sampleRankingData = this.rankingService.getRankingData();
   }
 
   public findRankingByParentIdAndAdd(idOfNode: number, parentId: number, dataName: string, rankingD: any) {

@@ -1,3 +1,8 @@
+<h2>Given Sample JSON:</h2>
+{{sampleRankingData | json}}
+
+<br />
+
 <h2>Add node using Parent Id</h2>
 <input type="text" name="dataNameText" placeholder="Name" [(ngModel)]="dataName" #dataNameText="ngModel">
 <input type="text" name="parentIdText" placeholder="parentId" [(ngModel)]="parentId" #parentIdText="ngModel">
@@ -14,9 +19,6 @@
 
 <br />
 <h3>{{statusMessage}}</h3>
-
-<h2>Given Sample JSON:</h2>
-{{rankingData | json}}
 
 <h2>Produced Sample Output:</h2>
 <table>
