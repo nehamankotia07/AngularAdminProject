@@ -52,7 +52,7 @@ export class RankingComponent implements OnInit {
     this.nameString = "";
     if (rankingData != null) {
       for(let rd of rankingData) {
-        this.nameString += ">" + rd.Name;
+        this.nameString += " > " + rd.Name;
         if (rd.Nodes != null){
           this.nameString += this.getAllChildNodeNames(rd.Nodes);
         }
@@ -156,7 +156,7 @@ export class RankingComponent implements OnInit {
       this.statusMessage = "Node name is blank.";
       return;
     } else {
-      this.findRankingByParentIdAndUpdate(this.nodeId, this.dataNameUpdate, this.rankingData);
+      this.findRankingByParentIdAndUpdate(  , this.rankingData);
       if(this.nodeFound) {
         this.statusMessage = "Node updated successfully.";
       } else {
@@ -182,5 +182,12 @@ export class RankingComponent implements OnInit {
       }
 
     }
+  }
+
+  public setUpdateFormData(nodeId: number, nodeName: string, item: any) {
+    this.nodeId = nodeId;
+    this.dataNameUpdate = nodeName;
+    this.nodeSelectList = [];
+    this.getNodes([item]);
   }
 }
