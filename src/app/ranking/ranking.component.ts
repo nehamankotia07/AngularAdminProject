@@ -23,6 +23,8 @@ export class RankingComponent implements OnInit {
   dataNameSearch: string;
   dataSearchResult: any;
 
+  nameString: string = "";
+
   statusMessage: string = "";
 
   constructor(private rankingService: RankingService) { }
@@ -46,6 +48,19 @@ export class RankingComponent implements OnInit {
     }
   }
 
+  public getAllChildNodeNames(rankingData: any) {
+    this.nameString = "";
+    if (rankingData != null) {
+      for(let rd of rankingData) {
+        this.nameString += ">" + rd.Name;
+        if (rd.Nodes != null){
+          this.nameString += this.getAllChildNodeNames(rd.Nodes);
+        }
+      }
+    }
+    return this.nameString;
+  }
+
   public populateSelectListOfNodes(): void {
     this.nodeSelectList = [];
     this.getNodes(this.rankingData);
@@ -53,22 +68,33 @@ export class RankingComponent implements OnInit {
 
   public findRankingByParentIdAndAdd(idOfNode: number, parentId: number, dataName: string, rankingD: any) {
     if (!this.nodeFound) {
-      for(let rd of rankingD) {
-          if(rd.Id == parentId) {
-            if (rd.Nodes == null) {
-              rd.Nodes = [];
+      if (parentId == -1) {
+        if (rankingD == null) {
+          rankingD = [];
+        }
+        rankingD.push({
+           Id: idOfNode, Name: dataName, Nodes: null
+        })
+        this.nodeFound = true;
+        this.populateSelectListOfNodes();
+      } else {
+        for(let rd of rankingD) {
+            if(rd.Id == parentId) {
+              if (rd.Nodes == null) {
+                rd.Nodes = [];
+              }
+              rd.Nodes.push({
+                 Id: idOfNode, Name: dataName, Nodes: null
+              })
+              this.nodeFound = true;
+              this.populateSelectListOfNodes();
+              return;
+            } else {
+              if (rd.Nodes != null){
+                this.findRankingByParentIdAndAdd(idOfNode, parentId, dataName, rd.Nodes);
+              }
             }
-            rd.Nodes.push({
-               Id: idOfNode, Name: dataName, Nodes: null
-            })
-            this.nodeFound = true;
-            this.populateSelectListOfNodes();
-            return;
-          } else {
-            if (rd.Nodes != null){
-              this.findRankingByParentIdAndAdd(idOfNode, parentId, dataName, rd.Nodes);
-            }
-          }
+        }
       }
     } else {
       return;
@@ -111,21 +137,31 @@ export class RankingComponent implements OnInit {
 
   public addDatainRankingData(): void {
     this.nodeFound = false;
-    this.findRankingByParentIdAndAdd(this.parentId+100, this.parentId, this.dataName, this.rankingData);
-    if(this.nodeFound) {
-      this.statusMessage = "Node added successfully.";
+    if(this.dataName == null || this.dataName == "") {
+      this.statusMessage = "Node name is blank.";
+      return;
     } else {
-      this.statusMessage = "Node not found.";
+      this.findRankingByParentIdAndAdd(this.parentId+100, this.parentId, this.dataName, this.rankingData);
+      if(this.nodeFound) {
+        this.statusMessage = "Node added successfully.";
+      } else {
+        this.statusMessage = "Node not found.";
+      }
     }
   }
 
   public updateDatainRankingData(): void {
     this.nodeFound = false;
-    this.findRankingByParentIdAndUpdate(this.nodeId, this.dataNameUpdate, this.rankingData);
-    if(this.nodeFound) {
-      this.statusMessage = "Node updated successfully.";
+    if(this.dataNameUpdate == null || this.dataNameUpdate == "") {
+      this.statusMessage = "Node name is blank.";
+      return;
     } else {
-      this.statusMessage = "Node not found.";
+      this.findRankingByParentIdAndUpdate(this.nodeId, this.dataNameUpdate, this.rankingData);
+      if(this.nodeFound) {
+        this.statusMessage = "Node updated successfully.";
+      } else {
+        this.statusMessage = "Node not found.";
+      }
     }
   }
 
