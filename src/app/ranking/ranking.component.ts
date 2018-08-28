@@ -156,7 +156,7 @@ export class RankingComponent implements OnInit {
       this.statusMessage = "Node name is blank.";
       return;
     } else {
-      this.findRankingByParentIdAndUpdate(  , this.rankingData);
+      this.findRankingByParentIdAndUpdate(this.nodeId, this.dataNameUpdate, this.rankingData);
       if(this.nodeFound) {
         this.statusMessage = "Node updated successfully.";
       } else {
