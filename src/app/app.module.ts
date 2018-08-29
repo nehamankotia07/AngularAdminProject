@@ -7,6 +7,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RankingComponent } from './ranking/ranking.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { LeftSideBarComponent } from './left-side-bar/left-side-bar.component';
+import { HeaderComponent } from './header/header.component';
 
 
 
@@ -14,7 +16,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   declarations: [
     AppComponent,
     RankingComponent,
-    DashboardComponent
+    DashboardComponent,
+    LeftSideBarComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
