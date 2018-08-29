@@ -1,13 +1,144 @@
+<!-- Page title bar -->
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-10">
-        <h2>Categories</h2>
-        <ol class="breadcrumb">
-            <!-- <li class="breadcrumb-item">
-                <a href="index.html">Dashboard</a>
-            </li> -->
-        </ol>
+        <h2>Category Table</h2>
+        <!-- <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a>Category</a>
+            </li>
+            <li class="breadcrumb-item active">
+                <strong>Category Table</strong>
+            </li>
+        </ol> -->
     </div>
     <div class="col-lg-2">
 
+    </div>
+</div>
+<!-- Page content -->
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>Ranking Data with search</h5>
+
+                    <div class="ibox-tools">
+
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <input type="text" class="form-control form-control-sm m-b-xs" id="filter"
+                           placeholder="Search in table" name="dataNameSearchText" [(ngModel)]="dataNameSearch" #dataNameSearchText="ngModel" (keyup)="searchDatainRankingData()">
+
+                    <table class="footable table table-stripped" data-page-size="8" data-filter=#filter>
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr *ngFor="let item of rankingData">
+                          <td><a (click)="setUpdateFormData(item.Id, item.Name, item)">{{item.Name}}</a><span [innerHTML]="getAllChildNodeNames(item.Nodes)"></span></td>
+                        </tr>
+                        <!-- <ng-template #recursiveList let-rankingData>
+                          <tr *ngIf="rankingData.length ==0">
+                            <td>No result found</td>
+                          </tr>
+                          <tr *ngFor="let item of rankingData">
+                            <td>
+                            {{item.Name}}
+                              <span *ngIf="item.Nodes" >{{">"}}</span>
+                            </td>
+                            <td *ngIf="item.Nodes !== null && item.Nodes.length > 0">
+                              <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: item.Nodes }"></ng-container>
+                            </td>
+                          </tr>
+                        </ng-template>
+                        <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: rankingData }"></ng-container> -->
+                        </tbody>
+                        <tfoot>
+                        <tr>
+                            <td colspan="5">
+                                <ul class="pagination float-right"></ul>
+                            </td>
+                        </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3>{{statusMessage}}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="ibox">
+          <div class="ibox-title">
+              <h5>Add New Node</h5>
+          </div>
+          <div class="ibox-content" style="">
+              <form method="get">
+                  <div class="form-group  row"><label class="col-sm-2 col-form-label">Name</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" name="dataNameText" placeholder="Name" [(ngModel)]="dataName" #dataNameText="ngModel">
+                      </div>
+                  </div>
+                  <div class="hr-line-dashed"></div>
+                  <div class="form-group row"><label class="col-sm-2 col-form-label">Select Node</label>
+                      <div class="col-sm-10">
+                        <select #parentNodeId="ngModel" class="form-control m-b" [name]="parentNodeId" [(ngModel)]="parentId" id="parentNodeId">
+                          <option value="-1" disabled [selected]="true">Select Node</option>
+                          <option *ngFor="let node of nodeSelectList" value="{{node.id}}">{{node.name}}</option>
+                        </select>
+                      </div>
+                  </div>
+                  <div class="hr-line-dashed"></div>
+                  <div class="form-group row">
+                      <div class="col-sm-4 col-sm-offset-2">
+                          <button class="btn btn-primary btn-sm" type="submit" (click)="addDatainRankingData()">Save</button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="ibox">
+          <div class="ibox-title">
+              <h5>Update Existing Node</h5>
+          </div>
+          <div class="ibox-content" style="">
+              <form method="get">
+                  <div class="form-group  row"><label class="col-sm-2 col-form-label">Name</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" name="dataNameUpdateText" placeholder="Name" [(ngModel)]="dataNameUpdate" #dataNameUpdateText="ngModel">
+                      </div>
+                  </div>
+                  <div class="hr-line-dashed"></div>
+                  <div class="form-group row"><label class="col-sm-2 col-form-label">Select Node</label>
+                      <div class="col-sm-10">
+                        <select #nodeIdModel="ngModel" class="form-control m-b" [name]="nodeIdModel" [(ngModel)]="nodeId" id="nodeId">
+                          <option value="-1" disabled [selected]="true">Select Node</option>
+                          <option *ngFor="let node of nodeSelectList" value="{{node.id}}">{{node.name}}</option>
+                        </select>
+                      </div>
+                  </div>
+                  <div class="hr-line-dashed"></div>
+                  <div class="form-group row">
+                      <div class="col-sm-4 col-sm-offset-2">
+                          <button class="btn btn-primary btn-sm" type="submit" (click)="updateDatainRankingData()">Update</button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+        </div>
+      </div>
     </div>
 </div>
