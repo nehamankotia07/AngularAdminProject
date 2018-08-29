@@ -1,10 +1,18 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule }             from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { RankingComponent } from './ranking/ranking.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+
+const routes: Routes = [
+  { path: '', redirectTo: '/ranking', pathMatch: 'full' },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'ranking', component: RankingComponent }
+];
 
 @NgModule({
   imports: [
-    CommonModule
+    RouterModule.forRoot(routes)
   ],
-  declarations: []
+  exports: [ RouterModule ]
 })
 export class AppRoutingModule { }
