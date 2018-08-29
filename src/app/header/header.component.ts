@@ -16,4 +16,7 @@ export class HeaderComponent implements OnInit {
     smoothlyMenu();
   }
 
+  ngOnInit() {
+  }
+
 }
