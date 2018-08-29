@@ -10,6 +10,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LeftSideBarComponent } from './left-side-bar/left-side-bar.component';
 import { HeaderComponent } from './header/header.component';
 import { CategoriesComponent } from './categories/categories.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -20,7 +21,8 @@ import { CategoriesComponent } from './categories/categories.component';
     DashboardComponent,
     LeftSideBarComponent,
     HeaderComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
