@@ -22,6 +22,7 @@ export class CategoriesComponent implements OnInit {
     this.findRankingByParentIdAndAdd(Number(this.category.ParentCategoryId)+100, Number(this.category.ParentCategoryId), this.category.Name, this.rankingData);
     if(this.nodeFound) {
       this.statusMessage = "Category added successfully.";
+      this.toaster.pop('success', 'Category added successfully.')
     } else {
       this.statusMessage = "Category not found.";
     }
@@ -48,6 +49,7 @@ export class CategoriesComponent implements OnInit {
 
   constructor(private rankingService: RankingService,
               private categoryService: CategoryService,
+              private toaster: ToasterService
               ) { }
 
   ngOnInit() {

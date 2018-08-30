@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ToasterConfig } from 'angular2-toaster';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Ranking Demo App';
+  public config: ToasterConfig = new ToasterConfig({animation: 'flyRight', limit: 5});
 }

@@ -1,10 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http'
 import { AuthInterceptor } from './_helpers/auth.interceptor';
 import { AppRoutingModule } from './app-routing.module';
 import { ErrorInterceptor } from './_helpers/error.interceptor';
+import { ToasterModule } from 'angular2-toaster';
 
 import { AppComponent } from './app.component';
 import { RankingComponent } from './ranking/ranking.component';
@@ -31,7 +33,9 @@ import { FooterComponent } from './footer/footer.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ToasterModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
