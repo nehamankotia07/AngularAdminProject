@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { RankingService } from '../ranking.service';
 import { RankData } from '../rankdata'
+import { Category } from '../_models/category'
+import { CategoryService } from '../_services/category.service';
 
 @Component({
   selector: 'app-categories',
@@ -8,6 +10,23 @@ import { RankData } from '../rankdata'
   styleUrls: ['./categories.component.css']
 })
 export class CategoriesComponent implements OnInit {
+
+  category: Category = new Category();
+
+  public addCategory(form): void {
+    console.log(this.category.name)
+    if (form.invalid) {
+      return;
+    }
+    this.nodeFound = false;
+    this.findRankingByParentIdAndAdd(this.category.ParentCategoryId+100, this.category.ParentCategoryId, this.category.Name, this.rankingData);
+    if(this.nodeFound) {
+      this.statusMessage = "Category added successfully.";
+    } else {
+      this.statusMessage = "Category not found.";
+    }
+  }
+
 
   rankingData: any = [];
   sampleRankingData: any = [];
@@ -27,7 +46,9 @@ export class CategoriesComponent implements OnInit {
 
   statusMessage: string = "";
 
-  constructor(private rankingService: RankingService) { }
+  constructor(private rankingService: RankingService,
+              private categoryService: CategoryService,
+              ) { }
 
   ngOnInit() {
     this.getRankingData();

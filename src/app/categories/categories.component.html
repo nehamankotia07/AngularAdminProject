@@ -1,18 +1,7 @@
 <!-- Page title bar -->
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-10">
-        <h2>Category Table</h2>
-        <!-- <ol class="breadcrumb">
-            <li class="breadcrumb-item">
-                <a href="index.html">Home</a>
-            </li>
-            <li class="breadcrumb-item">
-                <a>Category</a>
-            </li>
-            <li class="breadcrumb-item active">
-                <strong>Category Table</strong>
-            </li>
-        </ol> -->
+        <h2>Categories</h2>
     </div>
     <div class="col-lg-2">
 
@@ -24,15 +13,14 @@
         <div class="col-lg-12">
             <div class="ibox ">
                 <div class="ibox-title">
-                    <h5>Ranking Data with search</h5>
-
+                    <h5>Available Categories</h5>
                     <div class="ibox-tools">
 
                     </div>
                 </div>
                 <div class="ibox-content">
                     <input type="text" class="form-control form-control-sm m-b-xs" id="filter"
-                           placeholder="Search in table" name="dataNameSearchText" [(ngModel)]="dataNameSearch" #dataNameSearchText="ngModel" (keyup)="searchDatainRankingData()">
+                           placeholder="Search in categories" name="dataNameSearchText" [(ngModel)]="dataNameSearch" #dataNameSearchText="ngModel" (keyup)="searchDatainRankingData()">
 
                     <table class="footable table table-stripped" data-page-size="8" data-filter=#filter>
                         <thead>
@@ -84,8 +72,58 @@
               <h5>Add New Node</h5>
           </div>
           <div class="ibox-content" style="">
-              <form method="get">
-                  <div class="form-group  row"><label class="col-sm-2 col-form-label">Name</label>
+              <form #categoryAddForm="ngForm" (ngSubmit)="addCategory(categoryAddForm)">
+                    <div class="form-group  row"><label class="col-sm-2 col-form-label">Name</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" name="categoryName" placeholder="Category Name" [(ngModel)]="category.Name" #categoryName="ngModel" required>
+                        <div *ngIf="categoryName.invalid && categoryAddForm.submitted" class="alert alert-danger">
+                            <div *ngIf="categoryName.errors.required">
+                              Category Name is required.
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="hr-line-dashed"></div>
+                  <div class="form-group row"><label class="col-sm-2 col-form-label">Category Description</label>
+                      <div class="col-sm-10">
+                        <textarea type="text" class="form-control" name="categoryDescription" placeholder="Category Description" [(ngModel)]="category.Description" #categoryDescription="ngModel" required></textarea>
+                        <div *ngIf="categoryDescription.invalid && categoryAddForm.submitted" class="alert alert-danger">
+                            <div *ngIf="categoryDescription.errors.required">
+                              Category Description is required.
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="hr-line-dashed"></div>
+                  <div class="form-group row"><label class="col-sm-2 col-form-label">Parent Category</label>
+                      <div class="col-sm-10">
+                        <select #parentCategory="ngModel" class="form-control m-b" [name]="parentCategory" [(ngModel)]="category.ParentCategoryId" id="ParentCategoryId" required>
+                          <option value="-1" disabled [selected]="true">Select Category</option>
+                          <option *ngFor="let node of nodeSelectList" value="{{node.id}}">{{node.name}}</option>
+                        </select>
+                        <div *ngIf="parentCategory.invalid && categoryAddForm.submitted" class="alert alert-danger">
+                            <div *ngIf="parentCategory.errors.required">
+                              Parent Category is required.
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!-- <div class="hr-line-dashed"></div>
+                  <div class="form-group row"><label class="col-sm-2 col-form-label">Select Node</label>
+                      <div class="col-sm-10">
+                        <select #parentNodeId="ngModel" class="form-control m-b" [name]="parentNodeId" [(ngModel)]="parentId" id="parentNodeId">
+                          <option value="-1" disabled [selected]="true">Select Node</option>
+                          <option *ngFor="let node of nodeSelectList" value="{{node.id}}">{{node.name}}</option>
+                        </select>
+                      </div>
+                  </div> -->
+                  <div class="hr-line-dashed"></div>
+                  <div class="form-group row">
+                      <div class="col-sm-4 col-sm-offset-2">
+                          <button class="btn btn-primary btn-sm" type="submit">Save</button>
+                      </div>
+                  </div>
+                  <!-- <div class="form-group  row"><label class="col-sm-2 col-form-label">Name</label>
                       <div class="col-sm-10">
                         <input type="text" class="form-control" name="dataNameText" placeholder="Name" [(ngModel)]="dataName" #dataNameText="ngModel">
                       </div>
@@ -104,7 +142,7 @@
                       <div class="col-sm-4 col-sm-offset-2">
                           <button class="btn btn-primary btn-sm" type="submit" (click)="addDatainRankingData()">Save</button>
                       </div>
-                  </div>
+                  </div> -->
               </form>
           </div>
         </div>
