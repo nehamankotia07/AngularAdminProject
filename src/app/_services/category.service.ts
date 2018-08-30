@@ -4,13 +4,15 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { catchError, map, tap } from 'rxjs/operators';
 import { Category } from '../_models/category'
 import { throwError } from 'rxjs';
+import { ErrorService } from './error.service'
 
 @Injectable({
   providedIn: 'root'
 })
 export class CategoryService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient,
+              private errorService: ErrorService) { }
 
   public categories(): Observable<any> {
     return this.http.get<any>(`categories.json`).pipe(

@@ -3,6 +3,7 @@ import { RankingService } from '../ranking.service';
 import { RankData } from '../rankdata'
 import { Category } from '../_models/category'
 import { CategoryService } from '../_services/category.service';
+import { ToasterService } from 'angular2-toaster';
 
 @Component({
   selector: 'app-categories',
@@ -14,12 +15,11 @@ export class CategoriesComponent implements OnInit {
   category: Category = new Category();
 
   public addCategory(form): void {
-    console.log(this.category.name)
     if (form.invalid) {
       return;
     }
     this.nodeFound = false;
-    this.findRankingByParentIdAndAdd(this.category.ParentCategoryId+100, this.category.ParentCategoryId, this.category.Name, this.rankingData);
+    this.findRankingByParentIdAndAdd(Number(this.category.ParentCategoryId)+100, Number(this.category.ParentCategoryId), this.category.Name, this.rankingData);
     if(this.nodeFound) {
       this.statusMessage = "Category added successfully.";
     } else {
