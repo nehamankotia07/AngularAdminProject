@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: "https://ranking-demo-app.herokuapp.com/",
+  apiUrl: "http://149.28.166.130/api/",
 };

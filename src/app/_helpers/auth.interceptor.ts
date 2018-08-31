@@ -9,9 +9,9 @@ export class AuthInterceptor implements HttpInterceptor {
   constructor(private cookieService: CookieService) { }
   intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     // add authorization header with jwt token if available
+    //'Authorization': this.cookieService.getCookie('provider_uid'),
     request = request.clone({
       setHeaders: {
-        'Authorization': this.cookieService.getCookie('provider_uid'),
         'Content-Type': 'application/json'
       },
       url: environment.apiUrl + request.url

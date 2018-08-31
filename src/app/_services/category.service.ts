@@ -15,7 +15,8 @@ export class CategoryService {
               private errorService: ErrorService) { }
 
   public getCategories(): Observable<any> {
-    return this.http.get<any>(`assets/mock-service-data/categories.json`).pipe(
+    //assets/mock-service-data/categories.json
+    return this.http.get<any>(`category`).pipe(
       tap(results => console.log(results)),
       catchError(this.errorService.handleError('getCategories', []))
     );
