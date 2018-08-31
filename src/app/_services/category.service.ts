@@ -3,6 +3,7 @@ import { Observable, of } from 'rxjs';
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { catchError, map, tap } from 'rxjs/operators';
 import { Category } from '../_models/category'
+import { Filter } from '../_models/filter'
 import { throwError } from 'rxjs';
 import { ErrorService } from './error.service'
 
@@ -14,9 +15,10 @@ export class CategoryService {
   constructor(private http: HttpClient,
               private errorService: ErrorService) { }
 
-  public getCategories(): Observable<any> {
+  public getCategories(filter: Filter): Observable<any> {
     //assets/mock-service-data/categories.json
-    return this.http.get<any>(`category`).pipe(
+    //category
+    return this.http.get<any>(`assets/mock-service-data/categories.json`, {params : filter}).pipe(
       tap(results => console.log(results)),
       catchError(this.errorService.handleError('getCategories', []))
     );

@@ -7,6 +7,7 @@ import { AuthInterceptor } from './_helpers/auth.interceptor';
 import { AppRoutingModule } from './app-routing.module';
 import { ErrorInterceptor } from './_helpers/error.interceptor';
 import { ToasterModule } from 'angular2-toaster';
+import { PaginatorModule } from 'primeng/paginator';
 
 import { AppComponent } from './app.component';
 import { RankingComponent } from './ranking/ranking.component';
@@ -37,6 +38,7 @@ import { AddCategoryComponent } from './categories/add-category/add-category.com
     ReactiveFormsModule,
     HttpClientModule,
     ToasterModule.forRoot(),
+    PaginatorModule,
     BrowserAnimationsModule
   ],
   providers: [
