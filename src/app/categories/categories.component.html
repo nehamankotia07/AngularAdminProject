@@ -2,9 +2,19 @@
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-10">
         <h2>Categories</h2>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a routerLink="/dashboard">Home</a>
+          </li>
+          <li class="breadcrumb-item active">
+            <strong>Categories</strong>
+          </li>
+        </ol>
     </div>
     <div class="col-lg-2">
-
+        <a routerLink="/categories/add">
+            <button type="button" class="btn btn-primary btn-lg mt-20">Add New Category</button>
+        </a>
     </div>
 </div>
 <!-- Page content -->
@@ -20,7 +30,7 @@
                 </div>
                 <div class="ibox-content">
                     <input type="text" class="form-control form-control-sm m-b-xs" id="filter"
-                           placeholder="Search in categories" name="dataNameSearchText" [(ngModel)]="dataNameSearch" #dataNameSearchText="ngModel" (keyup)="searchDatainRankingData()">
+                           placeholder="Search in categories" name="categoryNameSearchText" [(ngModel)]="categoryName" #categoryNameSearchText="ngModel" (keyup)="searchCategory(categoryName)">
 
                     <table class="footable table table-stripped" data-page-size="8" data-filter=#filter>
                         <thead>
@@ -29,24 +39,9 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr *ngFor="let item of rankingData">
-                          <td><a (click)="setUpdateFormData(item.Id, item.Name, item)">{{item.Name}}</a><span [innerHTML]="getAllChildNodeNames(item.Nodes)"></span></td>
+                        <tr *ngFor="let category of categories">
+                          <td>{{category.path}}</td>
                         </tr>
-                        <!-- <ng-template #recursiveList let-rankingData>
-                          <tr *ngIf="rankingData.length ==0">
-                            <td>No result found</td>
-                          </tr>
-                          <tr *ngFor="let item of rankingData">
-                            <td>
-                            {{item.Name}}
-                              <span *ngIf="item.Nodes" >{{">"}}</span>
-                            </td>
-                            <td *ngIf="item.Nodes !== null && item.Nodes.length > 0">
-                              <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: item.Nodes }"></ng-container>
-                            </td>
-                          </tr>
-                        </ng-template>
-                        <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: rankingData }"></ng-container> -->
                         </tbody>
                         <tfoot>
                         <tr>
@@ -59,124 +54,5 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <h3>{{statusMessage}}</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="ibox">
-          <div class="ibox-title">
-              <h5>Add New Node</h5>
-          </div>
-          <div class="ibox-content" style="">
-              <form #categoryAddForm="ngForm" (ngSubmit)="addCategory(categoryAddForm)">
-                    <div class="form-group  row"><label class="col-sm-2 col-form-label">Name</label>
-                      <div class="col-sm-10">
-                        <input type="text" class="form-control" name="categoryName" placeholder="Category Name" [(ngModel)]="category.Name" #categoryName="ngModel" required>
-                        <div *ngIf="categoryName.invalid && categoryAddForm.submitted" class="alert alert-danger">
-                            <div *ngIf="categoryName.errors.required">
-                              Category Name is required.
-                            </div>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="hr-line-dashed"></div>
-                  <div class="form-group row"><label class="col-sm-2 col-form-label">Category Description</label>
-                      <div class="col-sm-10">
-                        <textarea type="text" class="form-control" name="categoryDescription" placeholder="Category Description" [(ngModel)]="category.Description" #categoryDescription="ngModel" required></textarea>
-                        <div *ngIf="categoryDescription.invalid && categoryAddForm.submitted" class="alert alert-danger">
-                            <div *ngIf="categoryDescription.errors.required">
-                              Category Description is required.
-                            </div>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="hr-line-dashed"></div>
-                  <div class="form-group row"><label class="col-sm-2 col-form-label">Parent Category</label>
-                      <div class="col-sm-10">
-                        <select #parentCategory="ngModel" class="form-control m-b" [name]="parentCategory" [(ngModel)]="category.ParentCategoryId" id="ParentCategoryId" required>
-                          <option value="-1" disabled [selected]="true">Select Category</option>
-                          <option *ngFor="let node of nodeSelectList" value="{{node.id}}">{{node.name}}</option>
-                        </select>
-                        <div *ngIf="parentCategory.invalid && categoryAddForm.submitted" class="alert alert-danger">
-                            <div *ngIf="parentCategory.errors.required">
-                              Parent Category is required.
-                            </div>
-                        </div>
-                      </div>
-                  </div>
-                  <!-- <div class="hr-line-dashed"></div>
-                  <div class="form-group row"><label class="col-sm-2 col-form-label">Select Node</label>
-                      <div class="col-sm-10">
-                        <select #parentNodeId="ngModel" class="form-control m-b" [name]="parentNodeId" [(ngModel)]="parentId" id="parentNodeId">
-                          <option value="-1" disabled [selected]="true">Select Node</option>
-                          <option *ngFor="let node of nodeSelectList" value="{{node.id}}">{{node.name}}</option>
-                        </select>
-                      </div>
-                  </div> -->
-                  <div class="hr-line-dashed"></div>
-                  <div class="form-group row">
-                      <div class="col-sm-4 col-sm-offset-2">
-                          <button class="btn btn-primary btn-sm" type="submit">Save</button>
-                      </div>
-                  </div>
-                  <!-- <div class="form-group  row"><label class="col-sm-2 col-form-label">Name</label>
-                      <div class="col-sm-10">
-                        <input type="text" class="form-control" name="dataNameText" placeholder="Name" [(ngModel)]="dataName" #dataNameText="ngModel">
-                      </div>
-                  </div>
-                  <div class="hr-line-dashed"></div>
-                  <div class="form-group row"><label class="col-sm-2 col-form-label">Select Node</label>
-                      <div class="col-sm-10">
-                        <select #parentNodeId="ngModel" class="form-control m-b" [name]="parentNodeId" [(ngModel)]="parentId" id="parentNodeId">
-                          <option value="-1" disabled [selected]="true">Select Node</option>
-                          <option *ngFor="let node of nodeSelectList" value="{{node.id}}">{{node.name}}</option>
-                        </select>
-                      </div>
-                  </div>
-                  <div class="hr-line-dashed"></div>
-                  <div class="form-group row">
-                      <div class="col-sm-4 col-sm-offset-2">
-                          <button class="btn btn-primary btn-sm" type="submit" (click)="addDatainRankingData()">Save</button>
-                      </div>
-                  </div> -->
-              </form>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="ibox">
-          <div class="ibox-title">
-              <h5>Update Existing Node</h5>
-          </div>
-          <div class="ibox-content" style="">
-              <form method="get">
-                  <div class="form-group  row"><label class="col-sm-2 col-form-label">Name</label>
-                      <div class="col-sm-10">
-                        <input type="text" class="form-control" name="dataNameUpdateText" placeholder="Name" [(ngModel)]="dataNameUpdate" #dataNameUpdateText="ngModel">
-                      </div>
-                  </div>
-                  <div class="hr-line-dashed"></div>
-                  <div class="form-group row"><label class="col-sm-2 col-form-label">Select Node</label>
-                      <div class="col-sm-10">
-                        <select #nodeIdModel="ngModel" class="form-control m-b" [name]="nodeIdModel" [(ngModel)]="nodeId" id="nodeId">
-                          <option value="-1" disabled [selected]="true">Select Node</option>
-                          <option *ngFor="let node of nodeSelectList" value="{{node.id}}">{{node.name}}</option>
-                        </select>
-                      </div>
-                  </div>
-                  <div class="hr-line-dashed"></div>
-                  <div class="form-group row">
-                      <div class="col-sm-4 col-sm-offset-2">
-                          <button class="btn btn-primary btn-sm" type="submit" (click)="updateDatainRankingData()">Update</button>
-                      </div>
-                  </div>
-              </form>
-          </div>
-        </div>
-      </div>
     </div>
 </div>

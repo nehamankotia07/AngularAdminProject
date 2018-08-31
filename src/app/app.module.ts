@@ -15,6 +15,7 @@ import { LeftSideBarComponent } from './left-side-bar/left-side-bar.component';
 import { HeaderComponent } from './header/header.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { FooterComponent } from './footer/footer.component';
+import { AddCategoryComponent } from './categories/add-category/add-category.component';
 
 
 
@@ -26,7 +27,8 @@ import { FooterComponent } from './footer/footer.component';
     LeftSideBarComponent,
     HeaderComponent,
     CategoriesComponent,
-    FooterComponent
+    FooterComponent,
+    AddCategoryComponent
   ],
   imports: [
     BrowserModule,

@@ -1,24 +1,24 @@
 export class Category{
 
-  public IsRoot: boolean;
-  public ParentCategoryId: string;
-  public Name: string;
-  public Description: string;
-  public Path: string;
-  public SeoKeywords: string;
-  public SeoTitles: string;
-  public SeoDescription: string;
-  public Slug: string;
+  public isRoot: boolean;
+  public parentCategoryId: string;
+  public name: string;
+  public description: string;
+  public path: string;
+  public seoKeywords: string;
+  public seoTitle: string;
+  public seoDescription: string;
+  public slug: string;
 
   constructor() {
-      this.IsRoot = false;
-      this.ParentCategoryId = "-1";
-      this.Name = "";
-      this.Description = "";
-      this.Path = "";
-      this.SeoKeywords = "";
-      this.SeoTitles = "";
-      this.SeoDescription = "";
-      this.Slug = "";
+      this.isRoot = false;
+      this.parentCategoryId = "-1";
+      this.name = "";
+      this.description = "";
+      this.path = "";
+      this.seoKeywords = "";
+      this.seoTitle = "";
+      this.seoDescription = "";
+      this.slug = "";
   }
 }

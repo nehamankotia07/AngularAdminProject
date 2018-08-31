@@ -14,10 +14,10 @@ export class CategoryService {
   constructor(private http: HttpClient,
               private errorService: ErrorService) { }
 
-  public categories(): Observable<any> {
-    return this.http.get<any>(`categories.json`).pipe(
+  public getCategories(): Observable<any> {
+    return this.http.get<any>(`assets/mock-service-data/categories.json`).pipe(
       tap(results => console.log(results)),
-      catchError(this.errorService.handleError('categories', []))
+      catchError(this.errorService.handleError('getCategories', []))
     );
   }
 

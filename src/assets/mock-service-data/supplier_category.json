@@ -1,0 +1,2009 @@
+{
+  "pageNumber": 1,
+  "pageSize": 200,
+  "totalCount": 1690,
+  "sortField": null,
+  "sortDirection": 1,
+  "result": [
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "00000000-0000-0000-0000-000000000000",
+      "parentCategory": null,
+      "name": "Computers",
+      "description": null,
+      "path": "Computers",
+      "mapsToCategories": [],
+      "id": "9eee2c54-523a-436d-8661-042f589bc9c4"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "9eee2c54-523a-436d-8661-042f589bc9c4",
+      "parentCategory": null,
+      "name": "Notebook/Tablet Accessories",
+      "description": null,
+      "path": "Computers > Notebook/Tablet Accessories",
+      "mapsToCategories": [],
+      "id": "a5934be0-d91d-4f5d-a80b-792d7ddf4ac5"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a5934be0-d91d-4f5d-a80b-792d7ddf4ac5",
+      "parentCategory": "Notebook/Tablet Accessories",
+      "name": "Notebook Accessory Kits",
+      "description": null,
+      "path": "Computers > Notebook/Tablet Accessories > Notebook Accessory Kits",
+      "mapsToCategories": [],
+      "id": "31d473fa-82cc-4633-8053-440af9b481b0"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a5934be0-d91d-4f5d-a80b-792d7ddf4ac5",
+      "parentCategory": "Notebook/Tablet Accessories",
+      "name": "Notebook Cases",
+      "description": null,
+      "path": "Computers > Notebook/Tablet Accessories > Notebook Cases",
+      "mapsToCategories": [],
+      "id": "13c7e5e0-376b-4ef3-831b-5aad41bc45cc"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a5934be0-d91d-4f5d-a80b-792d7ddf4ac5",
+      "parentCategory": "Notebook/Tablet Accessories",
+      "name": "Notebook Docks & Stands",
+      "description": null,
+      "path": "Computers > Notebook/Tablet Accessories > Notebook Docks & Stands",
+      "mapsToCategories": [],
+      "id": "4b2d85c0-17ac-4818-9827-02f44fbdab4c"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a5934be0-d91d-4f5d-a80b-792d7ddf4ac5",
+      "parentCategory": "Notebook/Tablet Accessories",
+      "name": "Notebook Expansion Bays & Options",
+      "description": null,
+      "path": "Computers > Notebook/Tablet Accessories > Notebook Expansion Bays & Options",
+      "mapsToCategories": [],
+      "id": "8e07cd36-4066-463e-a8d4-05799959b3f1"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a5934be0-d91d-4f5d-a80b-792d7ddf4ac5",
+      "parentCategory": "Notebook/Tablet Accessories",
+      "name": "Notebook Power Options",
+      "description": null,
+      "path": "Computers > Notebook/Tablet Accessories > Notebook Power Options",
+      "mapsToCategories": [],
+      "id": "8331dbb8-ba98-4052-b5ec-eab7722ce44c"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a5934be0-d91d-4f5d-a80b-792d7ddf4ac5",
+      "parentCategory": "Notebook/Tablet Accessories",
+      "name": "Tablet PC Accessories",
+      "description": null,
+      "path": "Computers > Notebook/Tablet Accessories > Tablet PC Accessories",
+      "mapsToCategories": [],
+      "id": "d3e8aff6-66d4-4c3e-ad93-f0f2f84977f4"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "9eee2c54-523a-436d-8661-042f589bc9c4",
+      "parentCategory": null,
+      "name": "Desktops",
+      "description": null,
+      "path": "Computers > Desktops",
+      "mapsToCategories": [],
+      "id": "820f1170-a58c-4b2f-b795-af09d2b092a4"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "820f1170-a58c-4b2f-b795-af09d2b092a4",
+      "parentCategory": "Desktops",
+      "name": "All-in-One PCs",
+      "description": null,
+      "path": "Computers > Desktops > All-in-One PCs",
+      "mapsToCategories": [],
+      "id": "81a735a5-945d-4233-b04e-952ade5510dd"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "820f1170-a58c-4b2f-b795-af09d2b092a4",
+      "parentCategory": "Desktops",
+      "name": "Desktop PCs",
+      "description": null,
+      "path": "Computers > Desktops > Desktop PCs",
+      "mapsToCategories": [],
+      "id": "c70c6d2a-b664-4883-96bd-857c5df6984e"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "820f1170-a58c-4b2f-b795-af09d2b092a4",
+      "parentCategory": "Desktops",
+      "name": "Small Form Factor / Ultra Slim PCs",
+      "description": null,
+      "path": "Computers > Desktops > Small Form Factor / Ultra Slim PCs",
+      "mapsToCategories": [],
+      "id": "791c1f66-c911-437a-ab17-5f5fb0f8eac9"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "820f1170-a58c-4b2f-b795-af09d2b092a4",
+      "parentCategory": "Desktops",
+      "name": "Tower PCs",
+      "description": null,
+      "path": "Computers > Desktops > Tower PCs",
+      "mapsToCategories": [],
+      "id": "53182690-0ef4-48cc-bbf7-b2072f8be1be"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "820f1170-a58c-4b2f-b795-af09d2b092a4",
+      "parentCategory": "Desktops",
+      "name": "Workstations",
+      "description": null,
+      "path": "Computers > Desktops > Workstations",
+      "mapsToCategories": [],
+      "id": "412ef255-635a-463b-9d95-9a3e576613b6"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "820f1170-a58c-4b2f-b795-af09d2b092a4",
+      "parentCategory": "Desktops",
+      "name": "Barebones PC",
+      "description": null,
+      "path": "Computers > Desktops > Barebones PC",
+      "mapsToCategories": [],
+      "id": "43ecfd7e-e477-4d48-ae0a-cc95585fcfe2"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "9eee2c54-523a-436d-8661-042f589bc9c4",
+      "parentCategory": null,
+      "name": "Workstations",
+      "description": null,
+      "path": "Computers > Workstations",
+      "mapsToCategories": [],
+      "id": "07c2fa9e-516f-4563-a158-830c12329a17"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "07c2fa9e-516f-4563-a158-830c12329a17",
+      "parentCategory": "Workstations",
+      "name": "Itanium-Based Workstation",
+      "description": null,
+      "path": "Computers > Workstations > Itanium-Based Workstation",
+      "mapsToCategories": [],
+      "id": "8aebcadf-32d6-4eaa-8ad5-9dddf2fd0052"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "07c2fa9e-516f-4563-a158-830c12329a17",
+      "parentCategory": "Workstations",
+      "name": "Opteron-Based Workstation",
+      "description": null,
+      "path": "Computers > Workstations > Opteron-Based Workstation",
+      "mapsToCategories": [],
+      "id": "b221fc41-cbd1-4266-8a51-3a0dd10709a8"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "07c2fa9e-516f-4563-a158-830c12329a17",
+      "parentCategory": "Workstations",
+      "name": "P4-Based Workstation",
+      "description": null,
+      "path": "Computers > Workstations > P4-Based Workstation",
+      "mapsToCategories": [],
+      "id": "7e099be8-e1c4-446f-8bd5-da799f893d9f"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "07c2fa9e-516f-4563-a158-830c12329a17",
+      "parentCategory": "Workstations",
+      "name": "RISC-Based Workstation",
+      "description": null,
+      "path": "Computers > Workstations > RISC-Based Workstation",
+      "mapsToCategories": [],
+      "id": "77ba56e9-fb53-499e-aebe-d9a4e23a5e8c"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "07c2fa9e-516f-4563-a158-830c12329a17",
+      "parentCategory": "Workstations",
+      "name": "XEON-Based Workstation",
+      "description": null,
+      "path": "Computers > Workstations > XEON-Based Workstation",
+      "mapsToCategories": [],
+      "id": "17aa3721-700f-4137-acc3-54184a77b243"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "07c2fa9e-516f-4563-a158-830c12329a17",
+      "parentCategory": "Workstations",
+      "name": "Intel Core Based Workstations",
+      "description": null,
+      "path": "Computers > Workstations > Intel Core Based Workstations",
+      "mapsToCategories": [],
+      "id": "cffb8d29-4d20-4bf6-9ac2-be50f291dbf6"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "9eee2c54-523a-436d-8661-042f589bc9c4",
+      "parentCategory": null,
+      "name": "Servers",
+      "description": null,
+      "path": "Computers > Servers",
+      "mapsToCategories": [],
+      "id": "8c5eadf8-83c7-4894-866b-4664382ed2af"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8c5eadf8-83c7-4894-866b-4664382ed2af",
+      "parentCategory": "Servers",
+      "name": "Blade Servers",
+      "description": null,
+      "path": "Computers > Servers > Blade Servers",
+      "mapsToCategories": [],
+      "id": "091da0a5-3361-49ed-9de6-02e7aa6115bb"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8c5eadf8-83c7-4894-866b-4664382ed2af",
+      "parentCategory": "Servers",
+      "name": "Blade Server Components",
+      "description": null,
+      "path": "Computers > Servers > Blade Server Components",
+      "mapsToCategories": [],
+      "id": "6c7202f9-bec3-4598-9ac4-6818ccd26e2d"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8c5eadf8-83c7-4894-866b-4664382ed2af",
+      "parentCategory": "Servers",
+      "name": "Tower Servers",
+      "description": null,
+      "path": "Computers > Servers > Tower Servers",
+      "mapsToCategories": [],
+      "id": "e905339b-fea4-4a5c-ab9e-549853f00207"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8c5eadf8-83c7-4894-866b-4664382ed2af",
+      "parentCategory": "Servers",
+      "name": "Rackmount Servers",
+      "description": null,
+      "path": "Computers > Servers > Rackmount Servers",
+      "mapsToCategories": [],
+      "id": "6a25eaba-1968-41f9-b12b-6d9846f0b433"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8c5eadf8-83c7-4894-866b-4664382ed2af",
+      "parentCategory": "Servers",
+      "name": "Barebones Server",
+      "description": null,
+      "path": "Computers > Servers > Barebones Server",
+      "mapsToCategories": [],
+      "id": "4135fccc-2b23-4d47-b3b2-677075950b86"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "9eee2c54-523a-436d-8661-042f589bc9c4",
+      "parentCategory": null,
+      "name": "Notebooks & Tablets",
+      "description": null,
+      "path": "Computers > Notebooks & Tablets",
+      "mapsToCategories": [],
+      "id": "52693c89-9f5d-4105-aebd-bdb4cfaabeae"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "52693c89-9f5d-4105-aebd-bdb4cfaabeae",
+      "parentCategory": "Notebooks & Tablets",
+      "name": "Notebooks",
+      "description": null,
+      "path": "Computers > Notebooks & Tablets > Notebooks",
+      "mapsToCategories": [],
+      "id": "d9bf443f-c160-4951-90d9-fdd10d30acac"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "52693c89-9f5d-4105-aebd-bdb4cfaabeae",
+      "parentCategory": "Notebooks & Tablets",
+      "name": "Tablets",
+      "description": null,
+      "path": "Computers > Notebooks & Tablets > Tablets",
+      "mapsToCategories": [],
+      "id": "76007ad0-24ac-4970-82a9-c49baea76b57"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "52693c89-9f5d-4105-aebd-bdb4cfaabeae",
+      "parentCategory": "Notebooks & Tablets",
+      "name": "Netbooks",
+      "description": null,
+      "path": "Computers > Notebooks & Tablets > Netbooks",
+      "mapsToCategories": [],
+      "id": "6a9df11d-3610-4a87-ba46-757c00906320"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "52693c89-9f5d-4105-aebd-bdb4cfaabeae",
+      "parentCategory": "Notebooks & Tablets",
+      "name": "Tablets (Slate style)",
+      "description": null,
+      "path": "Computers > Notebooks & Tablets > Tablets (Slate style)",
+      "mapsToCategories": [],
+      "id": "8f702837-bdd9-416b-b402-9e2d549cbdcf"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "52693c89-9f5d-4105-aebd-bdb4cfaabeae",
+      "parentCategory": "Notebooks & Tablets",
+      "name": "Ultraportable Notebooks",
+      "description": null,
+      "path": "Computers > Notebooks & Tablets > Ultraportable Notebooks",
+      "mapsToCategories": [],
+      "id": "83e517b4-5ec7-4fe1-8e8d-d3070df2254b"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "52693c89-9f5d-4105-aebd-bdb4cfaabeae",
+      "parentCategory": "Notebooks & Tablets",
+      "name": "Barebones Notebooks",
+      "description": null,
+      "path": "Computers > Notebooks & Tablets > Barebones Notebooks",
+      "mapsToCategories": [],
+      "id": "1ac4ce7a-bfba-4c1b-8eb4-cab639db3196"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "9eee2c54-523a-436d-8661-042f589bc9c4",
+      "parentCategory": null,
+      "name": "Barebones Computers",
+      "description": null,
+      "path": "Computers > Barebones Computers",
+      "mapsToCategories": [],
+      "id": "e3b80cde-1c9a-4707-af89-dd6fd0ce0576"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "e3b80cde-1c9a-4707-af89-dd6fd0ce0576",
+      "parentCategory": "Barebones Computers",
+      "name": "Barebones PC",
+      "description": null,
+      "path": "Computers > Barebones Computers > Barebones PC",
+      "mapsToCategories": [],
+      "id": "81656a11-fd7d-4441-8a42-e4f36dfbae57"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "e3b80cde-1c9a-4707-af89-dd6fd0ce0576",
+      "parentCategory": "Barebones Computers",
+      "name": "Barebones Servers",
+      "description": null,
+      "path": "Computers > Barebones Computers > Barebones Servers",
+      "mapsToCategories": [],
+      "id": "0212ae97-1193-4743-bb9a-5e29926e9d5b"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "e3b80cde-1c9a-4707-af89-dd6fd0ce0576",
+      "parentCategory": "Barebones Computers",
+      "name": "Barebones Notebooks",
+      "description": null,
+      "path": "Computers > Barebones Computers > Barebones Notebooks",
+      "mapsToCategories": [],
+      "id": "292a5dc0-a203-471f-9164-211dd7ba1c6e"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "9eee2c54-523a-436d-8661-042f589bc9c4",
+      "parentCategory": null,
+      "name": "Thin Clients",
+      "description": null,
+      "path": "Computers > Thin Clients",
+      "mapsToCategories": [],
+      "id": "c3cc8140-8123-4e9a-9a6c-bf85966e09f8"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "c3cc8140-8123-4e9a-9a6c-bf85966e09f8",
+      "parentCategory": "Thin Clients",
+      "name": "All in One Thin Clients",
+      "description": null,
+      "path": "Computers > Thin Clients > All in One Thin Clients",
+      "mapsToCategories": [],
+      "id": "08770c09-1c3b-4863-a870-d9f0dd1566b9"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "c3cc8140-8123-4e9a-9a6c-bf85966e09f8",
+      "parentCategory": "Thin Clients",
+      "name": "General Purpose Terminals",
+      "description": null,
+      "path": "Computers > Thin Clients > General Purpose Terminals",
+      "mapsToCategories": [],
+      "id": "ece540e4-6b70-40f1-b446-a8805d496dab"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "c3cc8140-8123-4e9a-9a6c-bf85966e09f8",
+      "parentCategory": "Thin Clients",
+      "name": "Terminal Components",
+      "description": null,
+      "path": "Computers > Thin Clients > Terminal Components",
+      "mapsToCategories": [],
+      "id": "26f15127-8973-4819-9a2c-5c3b40eabd61"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "c3cc8140-8123-4e9a-9a6c-bf85966e09f8",
+      "parentCategory": "Thin Clients",
+      "name": "Thin Client Terminals",
+      "description": null,
+      "path": "Computers > Thin Clients > Thin Client Terminals",
+      "mapsToCategories": [],
+      "id": "3e298f2d-0740-4840-a38f-f712deec72b6"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "c3cc8140-8123-4e9a-9a6c-bf85966e09f8",
+      "parentCategory": "Thin Clients",
+      "name": "Zero Clients",
+      "description": null,
+      "path": "Computers > Thin Clients > Zero Clients",
+      "mapsToCategories": [],
+      "id": "d5020ae5-c9a1-4698-b55b-63550baa4793"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "00000000-0000-0000-0000-000000000000",
+      "parentCategory": null,
+      "name": "Power & Rack Equipment",
+      "description": null,
+      "path": "Power & Rack Equipment",
+      "mapsToCategories": [],
+      "id": "2f064622-2261-4cb3-889c-34e4546608b3"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "2f064622-2261-4cb3-889c-34e4546608b3",
+      "parentCategory": null,
+      "name": "Power Equipment",
+      "description": null,
+      "path": "Power & Rack Equipment > Power Equipment",
+      "mapsToCategories": [],
+      "id": "70cefba3-cebd-4caf-83d4-8b7b56b6f496"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "70cefba3-cebd-4caf-83d4-8b7b56b6f496",
+      "parentCategory": "Power Equipment",
+      "name": "Line Conditioners",
+      "description": null,
+      "path": "Power & Rack Equipment > Power Equipment > Line Conditioners",
+      "mapsToCategories": [],
+      "id": "952b16ef-8ba8-4b16-99ad-2f409c79f0f6"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "70cefba3-cebd-4caf-83d4-8b7b56b6f496",
+      "parentCategory": "Power Equipment",
+      "name": "Power Distribution Units (PDUs) & Compon",
+      "description": null,
+      "path": "Power & Rack Equipment > Power Equipment > Power Distribution Units (PDUs) & Compon",
+      "mapsToCategories": [],
+      "id": "6de16222-5103-424a-b229-a0948d86d451"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "70cefba3-cebd-4caf-83d4-8b7b56b6f496",
+      "parentCategory": "Power Equipment",
+      "name": "Power Inverters",
+      "description": null,
+      "path": "Power & Rack Equipment > Power Equipment > Power Inverters",
+      "mapsToCategories": [],
+      "id": "f8670d65-6962-4fcc-8da6-a9dd3523fd33"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "70cefba3-cebd-4caf-83d4-8b7b56b6f496",
+      "parentCategory": "Power Equipment",
+      "name": "Power Strips",
+      "description": null,
+      "path": "Power & Rack Equipment > Power Equipment > Power Strips",
+      "mapsToCategories": [],
+      "id": "0ac94e26-8517-4e41-b28e-d68608b09a10"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "70cefba3-cebd-4caf-83d4-8b7b56b6f496",
+      "parentCategory": "Power Equipment",
+      "name": "Surge Protectors",
+      "description": null,
+      "path": "Power & Rack Equipment > Power Equipment > Surge Protectors",
+      "mapsToCategories": [],
+      "id": "f978d695-202b-420b-a81d-4947dcab32c4"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "70cefba3-cebd-4caf-83d4-8b7b56b6f496",
+      "parentCategory": "Power Equipment",
+      "name": "UPS Uninterruptible Power Supplies",
+      "description": null,
+      "path": "Power & Rack Equipment > Power Equipment > UPS Uninterruptible Power Supplies",
+      "mapsToCategories": [],
+      "id": "4a9dac25-0aa4-4c64-829e-a5d7fa81c75d"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "70cefba3-cebd-4caf-83d4-8b7b56b6f496",
+      "parentCategory": "Power Equipment",
+      "name": "UPS Batteries",
+      "description": null,
+      "path": "Power & Rack Equipment > Power Equipment > UPS Batteries",
+      "mapsToCategories": [],
+      "id": "3dda7ca7-f180-410d-995b-908008edfb73"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "70cefba3-cebd-4caf-83d4-8b7b56b6f496",
+      "parentCategory": "Power Equipment",
+      "name": "UPS Cables",
+      "description": null,
+      "path": "Power & Rack Equipment > Power Equipment > UPS Cables",
+      "mapsToCategories": [],
+      "id": "3eab6a5d-83f7-46ff-a618-51bc1833559e"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "70cefba3-cebd-4caf-83d4-8b7b56b6f496",
+      "parentCategory": "Power Equipment",
+      "name": "UPS Components",
+      "description": null,
+      "path": "Power & Rack Equipment > Power Equipment > UPS Components",
+      "mapsToCategories": [],
+      "id": "46a47a24-3146-4553-82e8-04b6ad598dc3"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "70cefba3-cebd-4caf-83d4-8b7b56b6f496",
+      "parentCategory": "Power Equipment",
+      "name": "UPS Management",
+      "description": null,
+      "path": "Power & Rack Equipment > Power Equipment > UPS Management",
+      "mapsToCategories": [],
+      "id": "54cc9988-214b-40ca-afea-6ac89ec9789d"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "70cefba3-cebd-4caf-83d4-8b7b56b6f496",
+      "parentCategory": "Power Equipment",
+      "name": "Voltage Regulators",
+      "description": null,
+      "path": "Power & Rack Equipment > Power Equipment > Voltage Regulators",
+      "mapsToCategories": [],
+      "id": "d7e52c3b-d46c-4d20-86d0-a703867133ba"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "70cefba3-cebd-4caf-83d4-8b7b56b6f496",
+      "parentCategory": "Power Equipment",
+      "name": "Generators",
+      "description": null,
+      "path": "Power & Rack Equipment > Power Equipment > Generators",
+      "mapsToCategories": [],
+      "id": "dfd0d05f-a13c-4c00-881c-ece40c75679d"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "2f064622-2261-4cb3-889c-34e4546608b3",
+      "parentCategory": null,
+      "name": "Racks & Enclosures",
+      "description": null,
+      "path": "Power & Rack Equipment > Racks & Enclosures",
+      "mapsToCategories": [],
+      "id": "b8ab19db-e6be-4e00-8c69-cfbb0f8666e3"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "b8ab19db-e6be-4e00-8c69-cfbb0f8666e3",
+      "parentCategory": "Racks & Enclosures",
+      "name": "Rack Enclosure Components",
+      "description": null,
+      "path": "Power & Rack Equipment > Racks & Enclosures > Rack Enclosure Components",
+      "mapsToCategories": [],
+      "id": "8433ee9b-17e8-4263-a381-d7c9f546cf60"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "b8ab19db-e6be-4e00-8c69-cfbb0f8666e3",
+      "parentCategory": "Racks & Enclosures",
+      "name": "Rack Enclosures",
+      "description": null,
+      "path": "Power & Rack Equipment > Racks & Enclosures > Rack Enclosures",
+      "mapsToCategories": [],
+      "id": "391280e0-691b-4ee6-ad5e-46a5ee3a61ed"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "b8ab19db-e6be-4e00-8c69-cfbb0f8666e3",
+      "parentCategory": "Racks & Enclosures",
+      "name": "Open Frame Racks",
+      "description": null,
+      "path": "Power & Rack Equipment > Racks & Enclosures > Open Frame Racks",
+      "mapsToCategories": [],
+      "id": "8b60e1b5-67ee-4a7f-9ebb-a4d741737566"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "b8ab19db-e6be-4e00-8c69-cfbb0f8666e3",
+      "parentCategory": "Racks & Enclosures",
+      "name": "Wall Mount Racks/Enclosures",
+      "description": null,
+      "path": "Power & Rack Equipment > Racks & Enclosures > Wall Mount Racks/Enclosures",
+      "mapsToCategories": [],
+      "id": "20cbb2d3-132a-4840-8dc6-c08756ba078b"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "00000000-0000-0000-0000-000000000000",
+      "parentCategory": null,
+      "name": "Storage",
+      "description": null,
+      "path": "Storage",
+      "mapsToCategories": [],
+      "id": "a52420ea-d5bb-4844-887f-0634b0249073"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a52420ea-d5bb-4844-887f-0634b0249073",
+      "parentCategory": null,
+      "name": "Unified Network Storage",
+      "description": null,
+      "path": "Storage > Unified Network Storage",
+      "mapsToCategories": [],
+      "id": "f246bb3b-bc28-4fb5-95f0-49869464a0e1"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "f246bb3b-bc28-4fb5-95f0-49869464a0e1",
+      "parentCategory": "Unified Network Storage",
+      "name": "EthernetFibre Channel Disk Sys",
+      "description": null,
+      "path": "Storage > Unified Network Storage > EthernetFibre Channel Disk Sys",
+      "mapsToCategories": [],
+      "id": "9fb67284-6f5f-4a04-9ca3-6c5c9008b240"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "f246bb3b-bc28-4fb5-95f0-49869464a0e1",
+      "parentCategory": "Unified Network Storage",
+      "name": "EthernetUnifiedStorage DiskSys",
+      "description": null,
+      "path": "Storage > Unified Network Storage > EthernetUnifiedStorage DiskSys",
+      "mapsToCategories": [],
+      "id": "5b7a4a11-ea8c-4a8c-9b79-52d463cd08f3"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "f246bb3b-bc28-4fb5-95f0-49869464a0e1",
+      "parentCategory": "Unified Network Storage",
+      "name": "Unified Storage Components",
+      "description": null,
+      "path": "Storage > Unified Network Storage > Unified Storage Components",
+      "mapsToCategories": [],
+      "id": "9df30778-aed4-4543-aa19-b935202e648d"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a52420ea-d5bb-4844-887f-0634b0249073",
+      "parentCategory": null,
+      "name": "Storage Accessories & Components",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components",
+      "mapsToCategories": [],
+      "id": "8089e79a-80d6-46ee-9293-9d8c77838230"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8089e79a-80d6-46ee-9293-9d8c77838230",
+      "parentCategory": "Storage Accessories & Components",
+      "name": "Data Transfer Kits",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components > Data Transfer Kits",
+      "mapsToCategories": [],
+      "id": "8e3e57bd-e6f2-4dd6-823d-b770445185aa"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8089e79a-80d6-46ee-9293-9d8c77838230",
+      "parentCategory": "Storage Accessories & Components",
+      "name": "Drive Controller Components",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components > Drive Controller Components",
+      "mapsToCategories": [],
+      "id": "ded5c88c-e17b-4efc-a172-f7a6ab755ded"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8089e79a-80d6-46ee-9293-9d8c77838230",
+      "parentCategory": "Storage Accessories & Components",
+      "name": "Drive Enclosure Components",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components > Drive Enclosure Components",
+      "mapsToCategories": [],
+      "id": "b2f1d79c-09fa-4b7e-af9f-1aa19a104e94"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8089e79a-80d6-46ee-9293-9d8c77838230",
+      "parentCategory": "Storage Accessories & Components",
+      "name": "Drive Interface Converters",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components > Drive Interface Converters",
+      "mapsToCategories": [],
+      "id": "d8bb54c1-b8be-4e06-8a10-7d9b2e0d210c"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8089e79a-80d6-46ee-9293-9d8c77838230",
+      "parentCategory": "Storage Accessories & Components",
+      "name": "Drive Mounting Hardware",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components > Drive Mounting Hardware",
+      "mapsToCategories": [],
+      "id": "c642368d-6895-4b43-ac5e-17c1c213f80e"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8089e79a-80d6-46ee-9293-9d8c77838230",
+      "parentCategory": "Storage Accessories & Components",
+      "name": "Jewel Cases/Labeling & Inserts",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components > Jewel Cases/Labeling & Inserts",
+      "mapsToCategories": [],
+      "id": "2af269b3-606a-4a78-83df-491534c0c05d"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8089e79a-80d6-46ee-9293-9d8c77838230",
+      "parentCategory": "Storage Accessories & Components",
+      "name": "Media Storage Products",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components > Media Storage Products",
+      "mapsToCategories": [],
+      "id": "0bec176a-36c4-43cb-9d51-34dfeb14f138"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8089e79a-80d6-46ee-9293-9d8c77838230",
+      "parentCategory": "Storage Accessories & Components",
+      "name": "Optical Device Components",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components > Optical Device Components",
+      "mapsToCategories": [],
+      "id": "82c2458a-73d8-40aa-a0a2-308f685252f2"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8089e79a-80d6-46ee-9293-9d8c77838230",
+      "parentCategory": "Storage Accessories & Components",
+      "name": "Portable Drive Carrying Cases",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components > Portable Drive Carrying Cases",
+      "mapsToCategories": [],
+      "id": "c31b1a02-bf8e-439a-81fc-21b6ffb1f2f7"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8089e79a-80d6-46ee-9293-9d8c77838230",
+      "parentCategory": "Storage Accessories & Components",
+      "name": "Space Management Organizers",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components > Space Management Organizers",
+      "mapsToCategories": [],
+      "id": "1851930c-b4a1-4d0f-a7ab-cb433564db88"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8089e79a-80d6-46ee-9293-9d8c77838230",
+      "parentCategory": "Storage Accessories & Components",
+      "name": "Storage Power Options",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components > Storage Power Options",
+      "mapsToCategories": [],
+      "id": "00d302e1-6adb-4fc6-938f-047cc1ffee0e"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8089e79a-80d6-46ee-9293-9d8c77838230",
+      "parentCategory": "Storage Accessories & Components",
+      "name": "Tape Array Components",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components > Tape Array Components",
+      "mapsToCategories": [],
+      "id": "dd3d950e-2d07-4d45-b597-2f737b6b28f4"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8089e79a-80d6-46ee-9293-9d8c77838230",
+      "parentCategory": "Storage Accessories & Components",
+      "name": "Tape Library Components",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components > Tape Library Components",
+      "mapsToCategories": [],
+      "id": "ed686730-ba5c-4c7c-8d0d-27005bfdf9dc"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8089e79a-80d6-46ee-9293-9d8c77838230",
+      "parentCategory": "Storage Accessories & Components",
+      "name": "Transit Shipping Cases",
+      "description": null,
+      "path": "Storage > Storage Accessories & Components > Transit Shipping Cases",
+      "mapsToCategories": [],
+      "id": "297522dd-8750-49b3-b530-1f5b5667803e"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a52420ea-d5bb-4844-887f-0634b0249073",
+      "parentCategory": null,
+      "name": "Floppy/Removable Media Drives",
+      "description": null,
+      "path": "Storage > Floppy/Removable Media Drives",
+      "mapsToCategories": [],
+      "id": "f0c74fa4-d664-4a6c-8bb4-9435af871023"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "f0c74fa4-d664-4a6c-8bb4-9435af871023",
+      "parentCategory": "Floppy/Removable Media Drives",
+      "name": "Floppy & Removable Media Drives",
+      "description": null,
+      "path": "Storage > Floppy/Removable Media Drives > Floppy & Removable Media Drives",
+      "mapsToCategories": [],
+      "id": "8185769e-f6b5-4bbd-87f3-21af80577216"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "f0c74fa4-d664-4a6c-8bb4-9435af871023",
+      "parentCategory": "Floppy/Removable Media Drives",
+      "name": "Magneto Optical Devices",
+      "description": null,
+      "path": "Storage > Floppy/Removable Media Drives > Magneto Optical Devices",
+      "mapsToCategories": [],
+      "id": "c35ba0c4-e240-453d-8302-1b1351b11bfc"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "f0c74fa4-d664-4a6c-8bb4-9435af871023",
+      "parentCategory": "Floppy/Removable Media Drives",
+      "name": "Removable Media Drives",
+      "description": null,
+      "path": "Storage > Floppy/Removable Media Drives > Removable Media Drives",
+      "mapsToCategories": [],
+      "id": "f20bc00d-e0c3-4f9b-bfbc-086328902eef"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a52420ea-d5bb-4844-887f-0634b0249073",
+      "parentCategory": null,
+      "name": "Hard Drives",
+      "description": null,
+      "path": "Storage > Hard Drives",
+      "mapsToCategories": [],
+      "id": "7687247f-51b7-4eb8-bd99-4d1941d61061"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "7687247f-51b7-4eb8-bd99-4d1941d61061",
+      "parentCategory": "Hard Drives",
+      "name": "EIDE Hard Drives",
+      "description": null,
+      "path": "Storage > Hard Drives > EIDE Hard Drives",
+      "mapsToCategories": [],
+      "id": "99d2cb48-74eb-40da-9455-b8849f781fe8"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "7687247f-51b7-4eb8-bd99-4d1941d61061",
+      "parentCategory": "Hard Drives",
+      "name": "Fibre Channel Hard Drives",
+      "description": null,
+      "path": "Storage > Hard Drives > Fibre Channel Hard Drives",
+      "mapsToCategories": [],
+      "id": "6ce674d0-b9f8-4359-96ee-68acee701d40"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "7687247f-51b7-4eb8-bd99-4d1941d61061",
+      "parentCategory": "Hard Drives",
+      "name": "Firewire Hard Drives",
+      "description": null,
+      "path": "Storage > Hard Drives > Firewire Hard Drives",
+      "mapsToCategories": [],
+      "id": "e18e3e11-f85a-4d3a-9ecb-4e4a658f90f6"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "7687247f-51b7-4eb8-bd99-4d1941d61061",
+      "parentCategory": "Hard Drives",
+      "name": "Multi-Interface Hard Drives",
+      "description": null,
+      "path": "Storage > Hard Drives > Multi-Interface Hard Drives",
+      "mapsToCategories": [],
+      "id": "9fe278f3-8f72-400c-ad84-e7951260d423"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "7687247f-51b7-4eb8-bd99-4d1941d61061",
+      "parentCategory": "Hard Drives",
+      "name": "PCMCIA Hard Drives",
+      "description": null,
+      "path": "Storage > Hard Drives > PCMCIA Hard Drives",
+      "mapsToCategories": [],
+      "id": "6428c639-0d73-4c85-8922-4c3e08b62b90"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "7687247f-51b7-4eb8-bd99-4d1941d61061",
+      "parentCategory": "Hard Drives",
+      "name": "SCSI Hard Drives",
+      "description": null,
+      "path": "Storage > Hard Drives > SCSI Hard Drives",
+      "mapsToCategories": [],
+      "id": "a9c255fc-0230-43f4-a0e2-fc4642a34676"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "7687247f-51b7-4eb8-bd99-4d1941d61061",
+      "parentCategory": "Hard Drives",
+      "name": "SATA Hard Drives",
+      "description": null,
+      "path": "Storage > Hard Drives > SATA Hard Drives",
+      "mapsToCategories": [],
+      "id": "399e9089-f6f0-4546-86bc-fb1a7351074c"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "7687247f-51b7-4eb8-bd99-4d1941d61061",
+      "parentCategory": "Hard Drives",
+      "name": "USB Hard Drives",
+      "description": null,
+      "path": "Storage > Hard Drives > USB Hard Drives",
+      "mapsToCategories": [],
+      "id": "101bffd8-3bfc-4c70-aeef-999a0e61fdb6"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "7687247f-51b7-4eb8-bd99-4d1941d61061",
+      "parentCategory": "Hard Drives",
+      "name": "SAS (Serial Attached SCSI) Hard Drives",
+      "description": null,
+      "path": "Storage > Hard Drives > SAS (Serial Attached SCSI) Hard Drives",
+      "mapsToCategories": [],
+      "id": "8bf4b4b9-5d96-49c0-ab18-78ef329a9753"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "7687247f-51b7-4eb8-bd99-4d1941d61061",
+      "parentCategory": "Hard Drives",
+      "name": "Thunderbolt Hard Drives",
+      "description": null,
+      "path": "Storage > Hard Drives > Thunderbolt Hard Drives",
+      "mapsToCategories": [],
+      "id": "bca69620-c817-41dd-b156-74d6bf204175"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a52420ea-d5bb-4844-887f-0634b0249073",
+      "parentCategory": null,
+      "name": "Backup Devices",
+      "description": null,
+      "path": "Storage > Backup Devices",
+      "mapsToCategories": [],
+      "id": "48673089-d2b7-4d71-90b0-e492d0231bf8"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "48673089-d2b7-4d71-90b0-e492d0231bf8",
+      "parentCategory": "Backup Devices",
+      "name": "Libraries",
+      "description": null,
+      "path": "Storage > Backup Devices > Libraries",
+      "mapsToCategories": [],
+      "id": "d5ba7203-49e1-4e79-97b7-a38d9743abca"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "48673089-d2b7-4d71-90b0-e492d0231bf8",
+      "parentCategory": "Backup Devices",
+      "name": "Tape Drives & Arrays",
+      "description": null,
+      "path": "Storage > Backup Devices > Tape Drives & Arrays",
+      "mapsToCategories": [],
+      "id": "97080b51-304e-4b07-9d0d-97196510284e"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "48673089-d2b7-4d71-90b0-e492d0231bf8",
+      "parentCategory": "Backup Devices",
+      "name": "Backup Accelerators",
+      "description": null,
+      "path": "Storage > Backup Devices > Backup Accelerators",
+      "mapsToCategories": [],
+      "id": "dc8e9658-55b5-4ab8-ab1d-bfbd86b11cc1"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a52420ea-d5bb-4844-887f-0634b0249073",
+      "parentCategory": null,
+      "name": "CD/DVD Drives",
+      "description": null,
+      "path": "Storage > CD/DVD Drives",
+      "mapsToCategories": [],
+      "id": "15fc425c-a74d-4dff-886b-7f0fc192dc5f"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "15fc425c-a74d-4dff-886b-7f0fc192dc5f",
+      "parentCategory": "CD/DVD Drives",
+      "name": "CD/CD-R/CD-RW Drives",
+      "description": null,
+      "path": "Storage > CD/DVD Drives > CD/CD-R/CD-RW Drives",
+      "mapsToCategories": [],
+      "id": "26bdf756-c609-4a46-b962-bab5fb2f34a9"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "15fc425c-a74d-4dff-886b-7f0fc192dc5f",
+      "parentCategory": "CD/DVD Drives",
+      "name": "CD/DVD Changers",
+      "description": null,
+      "path": "Storage > CD/DVD Drives > CD/DVD Changers",
+      "mapsToCategories": [],
+      "id": "a9be2226-4e4c-4cdf-a193-7f9c98d057dd"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "15fc425c-a74d-4dff-886b-7f0fc192dc5f",
+      "parentCategory": "CD/DVD Drives",
+      "name": "CD/DVD Duplicators",
+      "description": null,
+      "path": "Storage > CD/DVD Drives > CD/DVD Duplicators",
+      "mapsToCategories": [],
+      "id": "11f57d6b-ff8f-4446-b6ef-f78c282a43ee"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "15fc425c-a74d-4dff-886b-7f0fc192dc5f",
+      "parentCategory": "CD/DVD Drives",
+      "name": "CD/DVD Jukeboxes & Towers",
+      "description": null,
+      "path": "Storage > CD/DVD Drives > CD/DVD Jukeboxes & Towers",
+      "mapsToCategories": [],
+      "id": "2dd71919-b5f7-489a-91b1-c71feef141ae"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "15fc425c-a74d-4dff-886b-7f0fc192dc5f",
+      "parentCategory": "CD/DVD Drives",
+      "name": "DVD/CD-RW Combo Drives",
+      "description": null,
+      "path": "Storage > CD/DVD Drives > DVD/CD-RW Combo Drives",
+      "mapsToCategories": [],
+      "id": "23ba2b11-9a1e-4fd6-b0e6-b1edc20a4277"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "15fc425c-a74d-4dff-886b-7f0fc192dc5f",
+      "parentCategory": "CD/DVD Drives",
+      "name": "DVD/DVD-R/DVD-RW Drives",
+      "description": null,
+      "path": "Storage > CD/DVD Drives > DVD/DVD-R/DVD-RW Drives",
+      "mapsToCategories": [],
+      "id": "35e6694b-e63e-4655-babf-aaf5d22d517d"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "15fc425c-a74d-4dff-886b-7f0fc192dc5f",
+      "parentCategory": "CD/DVD Drives",
+      "name": "NAS CD/DVD Devices",
+      "description": null,
+      "path": "Storage > CD/DVD Drives > NAS CD/DVD Devices",
+      "mapsToCategories": [],
+      "id": "3a9e4fed-d7f6-42cb-8bbb-aab8d176bc11"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "15fc425c-a74d-4dff-886b-7f0fc192dc5f",
+      "parentCategory": "CD/DVD Drives",
+      "name": "Blu-Ray Drives",
+      "description": null,
+      "path": "Storage > CD/DVD Drives > Blu-Ray Drives",
+      "mapsToCategories": [],
+      "id": "ba63de91-9471-4a2d-9e9f-2f79300f59b9"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a52420ea-d5bb-4844-887f-0634b0249073",
+      "parentCategory": null,
+      "name": "Network Attached Storage (NAS)",
+      "description": null,
+      "path": "Storage > Network Attached Storage (NAS)",
+      "mapsToCategories": [],
+      "id": "23556db8-f263-4f62-8254-fcf29890f1e2"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "23556db8-f263-4f62-8254-fcf29890f1e2",
+      "parentCategory": "Network Attached Storage (NAS)",
+      "name": "NAS Disk Systems",
+      "description": null,
+      "path": "Storage > Network Attached Storage (NAS) > NAS Disk Systems",
+      "mapsToCategories": [],
+      "id": "f0889cb8-86aa-4ab2-86cb-c4c37f529653"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "23556db8-f263-4f62-8254-fcf29890f1e2",
+      "parentCategory": "Network Attached Storage (NAS)",
+      "name": "NAS Hard Drives",
+      "description": null,
+      "path": "Storage > Network Attached Storage (NAS) > NAS Hard Drives",
+      "mapsToCategories": [],
+      "id": "da1ecd18-38e1-4ba4-8262-59f26f511951"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "23556db8-f263-4f62-8254-fcf29890f1e2",
+      "parentCategory": "Network Attached Storage (NAS)",
+      "name": "NAS Components",
+      "description": null,
+      "path": "Storage > Network Attached Storage (NAS) > NAS Components",
+      "mapsToCategories": [],
+      "id": "4c2a1081-1539-42ab-a11f-5ffa2abf8fa6"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a52420ea-d5bb-4844-887f-0634b0249073",
+      "parentCategory": null,
+      "name": "Drive Controllers",
+      "description": null,
+      "path": "Storage > Drive Controllers",
+      "mapsToCategories": [],
+      "id": "8a677b9e-8c55-4759-bb03-088769968a62"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8a677b9e-8c55-4759-bb03-088769968a62",
+      "parentCategory": "Drive Controllers",
+      "name": "EIDE Drive Controllers",
+      "description": null,
+      "path": "Storage > Drive Controllers > EIDE Drive Controllers",
+      "mapsToCategories": [],
+      "id": "f1e93c10-6897-40f1-a46e-4b8a927d8d49"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8a677b9e-8c55-4759-bb03-088769968a62",
+      "parentCategory": "Drive Controllers",
+      "name": "EIDE RAID Drive Controllers",
+      "description": null,
+      "path": "Storage > Drive Controllers > EIDE RAID Drive Controllers",
+      "mapsToCategories": [],
+      "id": "2eadf234-cbaf-4930-8ca2-dbe102639e69"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8a677b9e-8c55-4759-bb03-088769968a62",
+      "parentCategory": "Drive Controllers",
+      "name": "Multi-Interface Drive Controllers",
+      "description": null,
+      "path": "Storage > Drive Controllers > Multi-Interface Drive Controllers",
+      "mapsToCategories": [],
+      "id": "0f92d68b-59e2-459e-8f21-1f152b703435"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8a677b9e-8c55-4759-bb03-088769968a62",
+      "parentCategory": "Drive Controllers",
+      "name": "SCSI Drive Controllers",
+      "description": null,
+      "path": "Storage > Drive Controllers > SCSI Drive Controllers",
+      "mapsToCategories": [],
+      "id": "84d065bf-56c4-4bc4-a47e-1f964865d6b2"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8a677b9e-8c55-4759-bb03-088769968a62",
+      "parentCategory": "Drive Controllers",
+      "name": "SCSI RAID Drive Controllers",
+      "description": null,
+      "path": "Storage > Drive Controllers > SCSI RAID Drive Controllers",
+      "mapsToCategories": [],
+      "id": "1001a208-a09e-44a4-8047-b8a32ecf911f"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8a677b9e-8c55-4759-bb03-088769968a62",
+      "parentCategory": "Drive Controllers",
+      "name": "SATA Drive Controllers",
+      "description": null,
+      "path": "Storage > Drive Controllers > SATA Drive Controllers",
+      "mapsToCategories": [],
+      "id": "0a1a2402-ff7f-43b8-82f5-8184f93c5d37"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8a677b9e-8c55-4759-bb03-088769968a62",
+      "parentCategory": "Drive Controllers",
+      "name": "Serial ATA RAID Drive Controllers",
+      "description": null,
+      "path": "Storage > Drive Controllers > Serial ATA RAID Drive Controllers",
+      "mapsToCategories": [],
+      "id": "14ded46a-73e7-4b14-84f7-2734f5d587e1"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8a677b9e-8c55-4759-bb03-088769968a62",
+      "parentCategory": "Drive Controllers",
+      "name": "SAS (Serial Attached SCSI) Drive Control",
+      "description": null,
+      "path": "Storage > Drive Controllers > SAS (Serial Attached SCSI) Drive Control",
+      "mapsToCategories": [],
+      "id": "1c925d56-44ed-4352-9d4f-58f2049d8a9d"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8a677b9e-8c55-4759-bb03-088769968a62",
+      "parentCategory": "Drive Controllers",
+      "name": "SAS (Serial Attached SCSI) RAID Drive Co",
+      "description": null,
+      "path": "Storage > Drive Controllers > SAS (Serial Attached SCSI) RAID Drive Co",
+      "mapsToCategories": [],
+      "id": "440046e7-0e52-444e-a502-fdb9b30653b2"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "8a677b9e-8c55-4759-bb03-088769968a62",
+      "parentCategory": "Drive Controllers",
+      "name": "Multi-Interface RAID Drive Ctlrs",
+      "description": null,
+      "path": "Storage > Drive Controllers > Multi-Interface RAID Drive Ctlrs",
+      "mapsToCategories": [],
+      "id": "901b0e5d-fb74-491a-be2d-b183f77e8153"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a52420ea-d5bb-4844-887f-0634b0249073",
+      "parentCategory": null,
+      "name": "Drive Enclosures",
+      "description": null,
+      "path": "Storage > Drive Enclosures",
+      "mapsToCategories": [],
+      "id": "54e9606c-c80c-4ea6-9e04-50778bf81df3"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "54e9606c-c80c-4ea6-9e04-50778bf81df3",
+      "parentCategory": "Drive Enclosures",
+      "name": "Drive Enclosures",
+      "description": null,
+      "path": "Storage > Drive Enclosures > Drive Enclosures",
+      "mapsToCategories": [],
+      "id": "a5405e81-6fe6-48dd-9ef7-1d543a39f878"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "54e9606c-c80c-4ea6-9e04-50778bf81df3",
+      "parentCategory": "Drive Enclosures",
+      "name": "RAID Enclosures",
+      "description": null,
+      "path": "Storage > Drive Enclosures > RAID Enclosures",
+      "mapsToCategories": [],
+      "id": "972f4884-ddb3-442c-97fe-2d76c935a459"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "54e9606c-c80c-4ea6-9e04-50778bf81df3",
+      "parentCategory": "Drive Enclosures",
+      "name": "Removable Frame & Carriers",
+      "description": null,
+      "path": "Storage > Drive Enclosures > Removable Frame & Carriers",
+      "mapsToCategories": [],
+      "id": "77ff0655-6d36-410e-8f37-4228874709a5"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a52420ea-d5bb-4844-887f-0634b0249073",
+      "parentCategory": null,
+      "name": "Flash Memory Devices",
+      "description": null,
+      "path": "Storage > Flash Memory Devices",
+      "mapsToCategories": [],
+      "id": "820a901c-562b-427b-82cf-091e69bd0196"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "820a901c-562b-427b-82cf-091e69bd0196",
+      "parentCategory": "Flash Memory Devices",
+      "name": "Flash Adapters",
+      "description": null,
+      "path": "Storage > Flash Memory Devices > Flash Adapters",
+      "mapsToCategories": [],
+      "id": "96edfb89-f942-4d43-95a5-738f689cbd16"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "820a901c-562b-427b-82cf-091e69bd0196",
+      "parentCategory": "Flash Memory Devices",
+      "name": "Flash Card Cases",
+      "description": null,
+      "path": "Storage > Flash Memory Devices > Flash Card Cases",
+      "mapsToCategories": [],
+      "id": "050b943c-38b5-4e92-a713-e08790e23803"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "820a901c-562b-427b-82cf-091e69bd0196",
+      "parentCategory": "Flash Memory Devices",
+      "name": "Flash Memory Cards",
+      "description": null,
+      "path": "Storage > Flash Memory Devices > Flash Memory Cards",
+      "mapsToCategories": [],
+      "id": "1c64e690-6e2c-479e-a5a3-9a3d5b103fc0"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "820a901c-562b-427b-82cf-091e69bd0196",
+      "parentCategory": "Flash Memory Devices",
+      "name": "Flash Reader/Card Bundles",
+      "description": null,
+      "path": "Storage > Flash Memory Devices > Flash Reader/Card Bundles",
+      "mapsToCategories": [],
+      "id": "7e336afb-d0a7-4026-b314-5691674754d8"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "820a901c-562b-427b-82cf-091e69bd0196",
+      "parentCategory": "Flash Memory Devices",
+      "name": "Flash Reader/Writers",
+      "description": null,
+      "path": "Storage > Flash Memory Devices > Flash Reader/Writers",
+      "mapsToCategories": [],
+      "id": "cb4665ea-2833-4c27-9f8e-d17c1e76a148"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "820a901c-562b-427b-82cf-091e69bd0196",
+      "parentCategory": "Flash Memory Devices",
+      "name": "Portable Flash Drives",
+      "description": null,
+      "path": "Storage > Flash Memory Devices > Portable Flash Drives",
+      "mapsToCategories": [],
+      "id": "3928ae1b-274a-4251-9832-d0f01ae4f44a"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a52420ea-d5bb-4844-887f-0634b0249073",
+      "parentCategory": null,
+      "name": "SAN Systems & Infrastructure",
+      "description": null,
+      "path": "Storage > SAN Systems & Infrastructure",
+      "mapsToCategories": [],
+      "id": "4a5a02ea-724f-4988-8d71-7d60bf7b53bc"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4a5a02ea-724f-4988-8d71-7d60bf7b53bc",
+      "parentCategory": "SAN Systems & Infrastructure",
+      "name": "Fibre Host Bus Adapters (HBAs)",
+      "description": null,
+      "path": "Storage > SAN Systems & Infrastructure > Fibre Host Bus Adapters (HBAs)",
+      "mapsToCategories": [],
+      "id": "b1518714-d650-4aef-acf4-57436d756b19"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4a5a02ea-724f-4988-8d71-7d60bf7b53bc",
+      "parentCategory": "SAN Systems & Infrastructure",
+      "name": "iSCSI Adapters",
+      "description": null,
+      "path": "Storage > SAN Systems & Infrastructure > iSCSI Adapters",
+      "mapsToCategories": [],
+      "id": "6c13b5b2-24cc-44be-8623-e8cca9cd1bb5"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4a5a02ea-724f-4988-8d71-7d60bf7b53bc",
+      "parentCategory": "SAN Systems & Infrastructure",
+      "name": "SAN GBIC/SFP",
+      "description": null,
+      "path": "Storage > SAN Systems & Infrastructure > SAN GBIC/SFP",
+      "mapsToCategories": [],
+      "id": "a102bbf7-d4db-4437-a3c3-b883d1c6b38d"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4a5a02ea-724f-4988-8d71-7d60bf7b53bc",
+      "parentCategory": "SAN Systems & Infrastructure",
+      "name": "SAN Hubs",
+      "description": null,
+      "path": "Storage > SAN Systems & Infrastructure > SAN Hubs",
+      "mapsToCategories": [],
+      "id": "78912ceb-2f07-409b-86dc-9ecdb3871718"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4a5a02ea-724f-4988-8d71-7d60bf7b53bc",
+      "parentCategory": "SAN Systems & Infrastructure",
+      "name": "SAN Routers",
+      "description": null,
+      "path": "Storage > SAN Systems & Infrastructure > SAN Routers",
+      "mapsToCategories": [],
+      "id": "7af7fad6-74cd-46b3-8bcc-a6703eae89c4"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4a5a02ea-724f-4988-8d71-7d60bf7b53bc",
+      "parentCategory": "SAN Systems & Infrastructure",
+      "name": "SAN Switches",
+      "description": null,
+      "path": "Storage > SAN Systems & Infrastructure > SAN Switches",
+      "mapsToCategories": [],
+      "id": "e4c10981-c0a1-4a5d-9168-6dbcf7c73deb"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4a5a02ea-724f-4988-8d71-7d60bf7b53bc",
+      "parentCategory": "SAN Systems & Infrastructure",
+      "name": "SAN Disk Systems",
+      "description": null,
+      "path": "Storage > SAN Systems & Infrastructure > SAN Disk Systems",
+      "mapsToCategories": [],
+      "id": "300883b3-f4a8-42db-88b4-18768287c325"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4a5a02ea-724f-4988-8d71-7d60bf7b53bc",
+      "parentCategory": "SAN Systems & Infrastructure",
+      "name": "SAN Hard Drives",
+      "description": null,
+      "path": "Storage > SAN Systems & Infrastructure > SAN Hard Drives",
+      "mapsToCategories": [],
+      "id": "e2630114-8e73-4bac-bfcc-407e0efb082e"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4a5a02ea-724f-4988-8d71-7d60bf7b53bc",
+      "parentCategory": "SAN Systems & Infrastructure",
+      "name": "SAN Components",
+      "description": null,
+      "path": "Storage > SAN Systems & Infrastructure > SAN Components",
+      "mapsToCategories": [],
+      "id": "e22ae7e7-bbbe-4e42-ab81-6440ce4e9a2f"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4a5a02ea-724f-4988-8d71-7d60bf7b53bc",
+      "parentCategory": "SAN Systems & Infrastructure",
+      "name": "iSCSI SAN Disk Sys",
+      "description": null,
+      "path": "Storage > SAN Systems & Infrastructure > iSCSI SAN Disk Sys",
+      "mapsToCategories": [],
+      "id": "56c4a074-8f76-431f-b496-6f0b28c971c1"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4a5a02ea-724f-4988-8d71-7d60bf7b53bc",
+      "parentCategory": "SAN Systems & Infrastructure",
+      "name": "Fibre Channel SAN Disk Sys",
+      "description": null,
+      "path": "Storage > SAN Systems & Infrastructure > Fibre Channel SAN Disk Sys",
+      "mapsToCategories": [],
+      "id": "8e6b404e-f715-47e9-a940-9fdd37384aef"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4a5a02ea-724f-4988-8d71-7d60bf7b53bc",
+      "parentCategory": "SAN Systems & Infrastructure",
+      "name": "FC/Iscsi Disk Sys",
+      "description": null,
+      "path": "Storage > SAN Systems & Infrastructure > FC/Iscsi Disk Sys",
+      "mapsToCategories": [],
+      "id": "b03c4184-49cc-4642-988d-1c8386b8e654"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "a52420ea-d5bb-4844-887f-0634b0249073",
+      "parentCategory": null,
+      "name": "Solid State Drives",
+      "description": null,
+      "path": "Storage > Solid State Drives",
+      "mapsToCategories": [],
+      "id": "725a6965-37ac-427f-84ef-07f9e6628b89"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "725a6965-37ac-427f-84ef-07f9e6628b89",
+      "parentCategory": "Solid State Drives",
+      "name": "SATA Solid State Drives (SSD)",
+      "description": null,
+      "path": "Storage > Solid State Drives > SATA Solid State Drives (SSD)",
+      "mapsToCategories": [],
+      "id": "ff47db46-67bb-4bc3-943d-1dfc1348a75e"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "725a6965-37ac-427f-84ef-07f9e6628b89",
+      "parentCategory": "Solid State Drives",
+      "name": "IDE Solid State Drives (SSD)",
+      "description": null,
+      "path": "Storage > Solid State Drives > IDE Solid State Drives (SSD)",
+      "mapsToCategories": [],
+      "id": "f2d23ef2-3782-4355-9ac4-b5f13767576a"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "725a6965-37ac-427f-84ef-07f9e6628b89",
+      "parentCategory": "Solid State Drives",
+      "name": "USB Solid State Drives (SSD)",
+      "description": null,
+      "path": "Storage > Solid State Drives > USB Solid State Drives (SSD)",
+      "mapsToCategories": [],
+      "id": "bed1c8b9-a49c-4d25-aab5-1ecac4c954fd"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "725a6965-37ac-427f-84ef-07f9e6628b89",
+      "parentCategory": "Solid State Drives",
+      "name": "PCI-Express Solid State Drives (SSD)",
+      "description": null,
+      "path": "Storage > Solid State Drives > PCI-Express Solid State Drives (SSD)",
+      "mapsToCategories": [],
+      "id": "100ae2f9-bc22-4711-aba0-b9be2aac6817"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "725a6965-37ac-427f-84ef-07f9e6628b89",
+      "parentCategory": "Solid State Drives",
+      "name": "SAS Solid State Drives (SSD)",
+      "description": null,
+      "path": "Storage > Solid State Drives > SAS Solid State Drives (SSD)",
+      "mapsToCategories": [],
+      "id": "5c50139d-f611-4d49-8616-e2c3f639b1bc"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "725a6965-37ac-427f-84ef-07f9e6628b89",
+      "parentCategory": "Solid State Drives",
+      "name": "Fiber Solid State Drives (SSD)",
+      "description": null,
+      "path": "Storage > Solid State Drives > Fiber Solid State Drives (SSD)",
+      "mapsToCategories": [],
+      "id": "95d2af41-d70b-486d-971b-45f640a39356"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "725a6965-37ac-427f-84ef-07f9e6628b89",
+      "parentCategory": "Solid State Drives",
+      "name": "Expresscard Solid State Drives (SSD)",
+      "description": null,
+      "path": "Storage > Solid State Drives > Expresscard Solid State Drives (SSD)",
+      "mapsToCategories": [],
+      "id": "2c261039-7193-447f-91fc-b5b088bcfde0"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "725a6965-37ac-427f-84ef-07f9e6628b89",
+      "parentCategory": "Solid State Drives",
+      "name": "Thunderbolt Solid State Drives (SSD)",
+      "description": null,
+      "path": "Storage > Solid State Drives > Thunderbolt Solid State Drives (SSD)",
+      "mapsToCategories": [],
+      "id": "b7019ca9-bdcb-4c53-8548-3608e67d2400"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "725a6965-37ac-427f-84ef-07f9e6628b89",
+      "parentCategory": "Solid State Drives",
+      "name": "Multi-Interface Solid State Drives (SSD)",
+      "description": null,
+      "path": "Storage > Solid State Drives > Multi-Interface Solid State Drives (SSD)",
+      "mapsToCategories": [],
+      "id": "c4387d91-ba2c-4a93-9171-a24f00435f21"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "00000000-0000-0000-0000-000000000000",
+      "parentCategory": null,
+      "name": "Displays",
+      "description": null,
+      "path": "Displays",
+      "mapsToCategories": [],
+      "id": "c3d86b0c-db87-451e-9223-df0dd767d03b"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "c3d86b0c-db87-451e-9223-df0dd767d03b",
+      "parentCategory": null,
+      "name": "Monitor/TV Accessories",
+      "description": null,
+      "path": "Displays > Monitor/TV Accessories",
+      "mapsToCategories": [],
+      "id": "36f3428e-0bdb-4ec9-949d-a2aa72e13733"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "36f3428e-0bdb-4ec9-949d-a2aa72e13733",
+      "parentCategory": "Monitor/TV Accessories",
+      "name": "Converter Boxes",
+      "description": null,
+      "path": "Displays > Monitor/TV Accessories > Converter Boxes",
+      "mapsToCategories": [],
+      "id": "cd6b3285-2627-4ba7-b326-911665693973"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "36f3428e-0bdb-4ec9-949d-a2aa72e13733",
+      "parentCategory": "Monitor/TV Accessories",
+      "name": "Display Accessories",
+      "description": null,
+      "path": "Displays > Monitor/TV Accessories > Display Accessories",
+      "mapsToCategories": [],
+      "id": "f4a2bae3-837f-4769-a192-6d810d82d2b8"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "36f3428e-0bdb-4ec9-949d-a2aa72e13733",
+      "parentCategory": "Monitor/TV Accessories",
+      "name": "LCD Display Carrying Cases",
+      "description": null,
+      "path": "Displays > Monitor/TV Accessories > LCD Display Carrying Cases",
+      "mapsToCategories": [],
+      "id": "7ad8b52d-2afd-4603-b109-17d2fc75eee1"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "36f3428e-0bdb-4ec9-949d-a2aa72e13733",
+      "parentCategory": "Monitor/TV Accessories",
+      "name": "Monitor Anti-Glare Filters",
+      "description": null,
+      "path": "Displays > Monitor/TV Accessories > Monitor Anti-Glare Filters",
+      "mapsToCategories": [],
+      "id": "f44ed769-11c0-42d5-a674-f38600b26633"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "36f3428e-0bdb-4ec9-949d-a2aa72e13733",
+      "parentCategory": "Monitor/TV Accessories",
+      "name": "Monitor Overlays",
+      "description": null,
+      "path": "Displays > Monitor/TV Accessories > Monitor Overlays",
+      "mapsToCategories": [],
+      "id": "dd09253f-2d47-4df3-a850-da1cb38fd6ce"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "36f3428e-0bdb-4ec9-949d-a2aa72e13733",
+      "parentCategory": "Monitor/TV Accessories",
+      "name": "Monitor/Lifts/Arms/Stands/Mounts/Bezels",
+      "description": null,
+      "path": "Displays > Monitor/TV Accessories > Monitor/Lifts/Arms/Stands/Mounts/Bezels",
+      "mapsToCategories": [],
+      "id": "5c703b39-e0e5-4f14-b990-fd8ff6e4a491"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "36f3428e-0bdb-4ec9-949d-a2aa72e13733",
+      "parentCategory": "Monitor/TV Accessories",
+      "name": "Remote Controls",
+      "description": null,
+      "path": "Displays > Monitor/TV Accessories > Remote Controls",
+      "mapsToCategories": [],
+      "id": "7767725e-1aa3-4ead-8975-5956fd4abb66"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "36f3428e-0bdb-4ec9-949d-a2aa72e13733",
+      "parentCategory": "Monitor/TV Accessories",
+      "name": "TV Accessories",
+      "description": null,
+      "path": "Displays > Monitor/TV Accessories > TV Accessories",
+      "mapsToCategories": [],
+      "id": "3f4b19c6-00c3-46aa-aefe-aacda04e7843"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "c3d86b0c-db87-451e-9223-df0dd767d03b",
+      "parentCategory": null,
+      "name": "Monitors",
+      "description": null,
+      "path": "Displays > Monitors",
+      "mapsToCategories": [],
+      "id": "5c7fe190-d55c-46c3-9a32-e8cbe8b4d047"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "5c7fe190-d55c-46c3-9a32-e8cbe8b4d047",
+      "parentCategory": "Monitors",
+      "name": "CRT Monitors",
+      "description": null,
+      "path": "Displays > Monitors > CRT Monitors",
+      "mapsToCategories": [],
+      "id": "1cc360e1-65c7-4017-910c-781770568606"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "5c7fe190-d55c-46c3-9a32-e8cbe8b4d047",
+      "parentCategory": "Monitors",
+      "name": "LCD/LED Monitors",
+      "description": null,
+      "path": "Displays > Monitors > LCD/LED Monitors",
+      "mapsToCategories": [],
+      "id": "580d3571-dc19-469d-91ec-ac45c958d6d2"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "5c7fe190-d55c-46c3-9a32-e8cbe8b4d047",
+      "parentCategory": "Monitors",
+      "name": "Plasma Monitors",
+      "description": null,
+      "path": "Displays > Monitors > Plasma Monitors",
+      "mapsToCategories": [],
+      "id": "f62d7352-0744-4d5a-9c99-34b7de9be844"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "c3d86b0c-db87-451e-9223-df0dd767d03b",
+      "parentCategory": null,
+      "name": "Televisions",
+      "description": null,
+      "path": "Displays > Televisions",
+      "mapsToCategories": [],
+      "id": "59b5181c-03cb-4e2f-98a5-bf1ffcc263a4"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "59b5181c-03cb-4e2f-98a5-bf1ffcc263a4",
+      "parentCategory": "Televisions",
+      "name": "LCD/LED TVs",
+      "description": null,
+      "path": "Displays > Televisions > LCD/LED TVs",
+      "mapsToCategories": [],
+      "id": "76b7a801-8560-49f3-92c1-22d4ead8efa7"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "59b5181c-03cb-4e2f-98a5-bf1ffcc263a4",
+      "parentCategory": "Televisions",
+      "name": "Plasma TVs",
+      "description": null,
+      "path": "Displays > Televisions > Plasma TVs",
+      "mapsToCategories": [],
+      "id": "6e24ea89-16f4-458a-9dfa-28d955decc42"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "59b5181c-03cb-4e2f-98a5-bf1ffcc263a4",
+      "parentCategory": "Televisions",
+      "name": "Projection TV",
+      "description": null,
+      "path": "Displays > Televisions > Projection TV",
+      "mapsToCategories": [],
+      "id": "03269cfe-5564-44a6-93e6-a0eaa2b0680e"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "59b5181c-03cb-4e2f-98a5-bf1ffcc263a4",
+      "parentCategory": "Televisions",
+      "name": "Televisions",
+      "description": null,
+      "path": "Displays > Televisions > Televisions",
+      "mapsToCategories": [],
+      "id": "ca7ac34a-9916-441b-931e-d9495e1e5b60"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "c3d86b0c-db87-451e-9223-df0dd767d03b",
+      "parentCategory": null,
+      "name": "Medical Display Solutions",
+      "description": null,
+      "path": "Displays > Medical Display Solutions",
+      "mapsToCategories": [],
+      "id": "9c9a8591-2ba5-4579-83dc-517272abc5ae"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "9c9a8591-2ba5-4579-83dc-517272abc5ae",
+      "parentCategory": "Medical Display Solutions",
+      "name": "Diagnostic Imaging Displays",
+      "description": null,
+      "path": "Displays > Medical Display Solutions > Diagnostic Imaging Displays",
+      "mapsToCategories": [],
+      "id": "ae21b121-4b59-49f4-b826-97c542d48ecc"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "9c9a8591-2ba5-4579-83dc-517272abc5ae",
+      "parentCategory": "Medical Display Solutions",
+      "name": "Mobile Point of Care Displays & Systems",
+      "description": null,
+      "path": "Displays > Medical Display Solutions > Mobile Point of Care Displays & Systems",
+      "mapsToCategories": [],
+      "id": "5752a227-06a5-42c7-ab28-380c697b148c"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "9c9a8591-2ba5-4579-83dc-517272abc5ae",
+      "parentCategory": "Medical Display Solutions",
+      "name": "Patient Monitoring/Charting Displays",
+      "description": null,
+      "path": "Displays > Medical Display Solutions > Patient Monitoring/Charting Displays",
+      "mapsToCategories": [],
+      "id": "b986e225-a362-4627-b989-38fd028bd13c"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "c3d86b0c-db87-451e-9223-df0dd767d03b",
+      "parentCategory": null,
+      "name": "Touch Screen Displays",
+      "description": null,
+      "path": "Displays > Touch Screen Displays",
+      "mapsToCategories": [],
+      "id": "e8181c90-b8ba-4563-a606-2fcadbc6d0cd"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "e8181c90-b8ba-4563-a606-2fcadbc6d0cd",
+      "parentCategory": "Touch Screen Displays",
+      "name": "LCD Touch Screen Displays",
+      "description": null,
+      "path": "Displays > Touch Screen Displays > LCD Touch Screen Displays",
+      "mapsToCategories": [],
+      "id": "59777e5a-ed41-4b38-ad97-5c467665247d"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "e8181c90-b8ba-4563-a606-2fcadbc6d0cd",
+      "parentCategory": "Touch Screen Displays",
+      "name": "CRT Touch Screen Displays",
+      "description": null,
+      "path": "Displays > Touch Screen Displays > CRT Touch Screen Displays",
+      "mapsToCategories": [],
+      "id": "855b738a-957b-4710-804d-d16eb942a0ee"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "e8181c90-b8ba-4563-a606-2fcadbc6d0cd",
+      "parentCategory": "Touch Screen Displays",
+      "name": "Plasma Touch Screen Displays",
+      "description": null,
+      "path": "Displays > Touch Screen Displays > Plasma Touch Screen Displays",
+      "mapsToCategories": [],
+      "id": "54db4ebf-57f9-4e84-a22a-1498e4cc68f8"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "e8181c90-b8ba-4563-a606-2fcadbc6d0cd",
+      "parentCategory": "Touch Screen Displays",
+      "name": "DLP Rear Projection Touch Screen Display",
+      "description": null,
+      "path": "Displays > Touch Screen Displays > DLP Rear Projection Touch Screen Display",
+      "mapsToCategories": [],
+      "id": "100f9fee-ab78-4bf4-a4b3-7c8d75bdcfb5"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "c3d86b0c-db87-451e-9223-df0dd767d03b",
+      "parentCategory": null,
+      "name": "Commercial/Signage Displays",
+      "description": null,
+      "path": "Displays > Commercial/Signage Displays",
+      "mapsToCategories": [],
+      "id": "4fb5aee1-e751-432d-ab0f-8eba149f8c8f"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4fb5aee1-e751-432d-ab0f-8eba149f8c8f",
+      "parentCategory": "Commercial/Signage Displays",
+      "name": "LCD/LED Displays",
+      "description": null,
+      "path": "Displays > Commercial/Signage Displays > LCD/LED Displays",
+      "mapsToCategories": [],
+      "id": "d6203182-3d30-4b57-932f-cf8f4ac9f146"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4fb5aee1-e751-432d-ab0f-8eba149f8c8f",
+      "parentCategory": "Commercial/Signage Displays",
+      "name": "LCD/LED Touch Screen Displays",
+      "description": null,
+      "path": "Displays > Commercial/Signage Displays > LCD/LED Touch Screen Displays",
+      "mapsToCategories": [],
+      "id": "9898c9d3-2316-4ead-a034-1ea0e046bb81"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "4fb5aee1-e751-432d-ab0f-8eba149f8c8f",
+      "parentCategory": "Commercial/Signage Displays",
+      "name": "Plasma Displays",
+      "description": null,
+      "path": "Displays > Commercial/Signage Displays > Plasma Displays",
+      "mapsToCategories": [],
+      "id": "7daac752-e262-49f5-8a3b-cdae6e6cb5f3"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "c3d86b0c-db87-451e-9223-df0dd767d03b",
+      "parentCategory": null,
+      "name": "Computer Displays",
+      "description": null,
+      "path": "Displays > Computer Displays",
+      "mapsToCategories": [],
+      "id": "dab79eef-6dfc-483c-8961-2544e5eeed53"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "dab79eef-6dfc-483c-8961-2544e5eeed53",
+      "parentCategory": "Computer Displays",
+      "name": "LCD/LED Monitors",
+      "description": null,
+      "path": "Displays > Computer Displays > LCD/LED Monitors",
+      "mapsToCategories": [],
+      "id": "17a0fccb-ee5d-4a10-9f2c-46d1394d8437"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "dab79eef-6dfc-483c-8961-2544e5eeed53",
+      "parentCategory": "Computer Displays",
+      "name": "LCD/LED Touch Screen Monitors",
+      "description": null,
+      "path": "Displays > Computer Displays > LCD/LED Touch Screen Monitors",
+      "mapsToCategories": [],
+      "id": "974cb6fd-fa74-4cf9-8a0b-59ca9ee26361"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "00000000-0000-0000-0000-000000000000",
+      "parentCategory": null,
+      "name": "Communications",
+      "description": null,
+      "path": "Communications",
+      "mapsToCategories": [],
+      "id": "414905d5-3bbb-4e32-be2b-bf08701a860c"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "414905d5-3bbb-4e32-be2b-bf08701a860c",
+      "parentCategory": null,
+      "name": "VHF Radios & Communications Accessories",
+      "description": null,
+      "path": "Communications > VHF Radios & Communications Accessories",
+      "mapsToCategories": [],
+      "id": "3e0f8926-f370-4895-81c7-5508bd0e3fe1"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "3e0f8926-f370-4895-81c7-5508bd0e3fe1",
+      "parentCategory": "VHF Radios & Communications Accessories",
+      "name": "VHF Radios & Communications Accessories",
+      "description": null,
+      "path": "Communications > VHF Radios & Communications Accessories > VHF Radios & Communications Accessories",
+      "mapsToCategories": [],
+      "id": "34e6dec3-c707-420f-8521-ef6655acfdac"
+    },
+    {
+      "supplierId": "14a7f855-aaec-47af-b96d-47c593ef6417",
+      "parentCategoryId": "414905d5-3bbb-4e32-be2b-bf08701a860c",
+      "parentCategory": null,
+      "name": "Phone Accessories",
+      "description": null,
+      "path": "Communications > Phone Accessories",
+      "mapsToCategories": [],
+      "id": "0293d243-6c26-44d0-8c27-65575f8d43cd"
+    }
+  ]
+}
