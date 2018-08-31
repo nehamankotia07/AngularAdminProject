@@ -18,7 +18,8 @@ export class CategoryService {
   public getCategories(filter: Filter): Observable<any> {
     //assets/mock-service-data/categories.json
     //category
-    return this.http.get<any>(`assets/mock-service-data/categories.json`, {params : filter}).pipe(
+    let queryString: string = `page=${filter.page}&perPage=${filter.perPage}`
+    return this.http.get<any>(`assets/mock-service-data/categories.json?${queryString}`).pipe(
       tap(results => console.log(results)),
       catchError(this.errorService.handleError('getCategories', []))
     );

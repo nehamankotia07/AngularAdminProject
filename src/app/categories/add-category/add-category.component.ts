@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { Category } from '../../_models/category'
+import { Filter } from '../../_models/filter'
 import { CategoryService } from '../../_services/category.service';
 import { ToasterService } from 'angular2-toaster';
 
@@ -12,6 +13,7 @@ import { ToasterService } from 'angular2-toaster';
 export class AddCategoryComponent implements OnInit {
 
   category: Category = new Category();
+  filter: Filter =  new Filter();
   categories: Category[] = [];
 
   constructor(
@@ -22,11 +24,11 @@ export class AddCategoryComponent implements OnInit {
               ) { }
 
   ngOnInit() {
-    this.getCategories();
+    this.getCategories(this.filter);
   }
 
-  public getCategories(): void {
-    this.categoryService.getCategories().subscribe(result => {
+  public getCategories(filter: Filter): void {
+    this.categoryService.getCategories(filter).subscribe(result => {
       this.categories =  result.result;
     })
   }
