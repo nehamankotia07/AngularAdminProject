@@ -1,5 +1,6 @@
 export class Category{
 
+  public id: string;
   public isRoot: boolean;
   public parentCategoryId: string;
   public name: string;
@@ -11,6 +12,7 @@ export class Category{
   public slug: string;
 
   constructor() {
+      this.id = "";
       this.isRoot = false;
       this.parentCategoryId = "-1";
       this.name = "";

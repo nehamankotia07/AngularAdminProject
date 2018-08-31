@@ -28,8 +28,12 @@ export class CategoryService {
   }
 
   public addCategory(params) {
-    return this.http.post(`categories.json`, { category: params }).pipe(
+    /*return this.http.post(`categories.json`, { category: params }).pipe(
       tap(data => console.log(data))
+    );*/
+    return this.http.get<any>(`assets/mock-service-data/categories.json`).pipe(
+      tap(results => console.log(results)),
+      catchError(this.errorService.handleError('getCategories', []))
     );
   }
 }

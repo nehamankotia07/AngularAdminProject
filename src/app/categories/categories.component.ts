@@ -14,6 +14,7 @@ export class CategoriesComponent implements OnInit {
 
   category: Category = new Category();
   categories: Category[] = [];
+  categoryName: string = "";
 
   public searchCategory(query: string): void {
     this.categoryService.getCategories().subscribe(result => {
