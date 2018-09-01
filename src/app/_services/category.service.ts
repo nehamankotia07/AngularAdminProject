@@ -19,7 +19,7 @@ export class CategoryService {
     //assets/mock-service-data/categories.json
     //category
     let queryString: string = `page=${filter.page}&perPage=${filter.perPage}`
-    return this.http.get<any>(`assets/mock-service-data/categories.json?${queryString}`).pipe(
+    return this.http.get<any>(`category?${queryString}`).pipe(
       tap(results => console.log(results)),
       catchError(this.errorService.handleError('getCategories', []))
     );
