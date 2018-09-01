@@ -15,6 +15,7 @@ export class AddCategoryComponent implements OnInit {
   category: Category = new Category();
   filter: Filter =  null;
   categories: Category[] = [];
+  action: string = "Add";
 
   constructor(
               private categoryService: CategoryService,
@@ -25,6 +26,11 @@ export class AddCategoryComponent implements OnInit {
 
   ngOnInit() {
     this.getCategories(null);
+    const id = this.route.snapshot.paramMap.get('categoryId');
+    if(id) {
+      this.action = "Update";
+      this.getCategory(id);
+    }
   }
 
   public getCategories(filter: Filter): void {
@@ -33,15 +39,31 @@ export class AddCategoryComponent implements OnInit {
     })
   }
 
-  public addCategory(form): void {
+  public getCategory(categoryId: string) {
+    this.categoryService.getCategory(categoryId).subscribe(result => {
+      this.category =  result;
+    })
+  }
+
+  public addUpdateCategory(form): void {
     if (form.invalid) {
       return;
     }
-    this.categoryService.addCategory(this.category).subscribe(result => {
+    if (this.action == "Update") {
+      this.categoryService.updateCategory(this.category).subscribe(result => {
+        this.category =  this.category;
+        this.router.navigate(['/categories']);
+        this.toaster.pop('success', 'Category updated successfully.');
+      });
+      return;
+    }
+    let category = Object.assign({}, this.category);
+    delete category.id;
+    this.categoryService.addCategory(category).subscribe(result => {
       this.category =  this.category;
       this.router.navigate(['/categories']);
       this.toaster.pop('success', 'Category added successfully.');
-    })
+    });
   }
 
 }

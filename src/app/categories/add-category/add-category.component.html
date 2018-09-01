@@ -1,7 +1,7 @@
 <!-- Page title bar -->
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-10">
-        <h2>Add New Category</h2>
+        <h2>{{action}} Category</h2>
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
             <a routerLink="/dashboard">Home</a>
@@ -10,14 +10,14 @@
             <a routerLink="/categories">Categories</a>
           </li>
           <li class="breadcrumb-item active">
-            <strong>Add New Category</strong>
+            <strong>{{action}} Category</strong>
           </li>
         </ol>
     </div>
     <div class="col-lg-2">
       <a routerLink="/categories">
-            <button type="button" class="btn btn-primary btn-lg mt-20">Category Listing</button>
-        </a>
+        <button type="button" class="btn btn-primary btn-sm mt-20">Category Listing</button>
+      </a>
     </div>
 </div>
 <!-- Page content -->
@@ -26,14 +26,14 @@
       <div class="col-lg-12">
         <div class="ibox">
           <div class="ibox-title">
-              <h5>Add New Node</h5>
+              <h5>{{action}} Category</h5>
           </div>
           <div class="ibox-content" style="">
-              <form #categoryAddForm="ngForm" (ngSubmit)="addCategory(categoryAddForm)">
+              <form #categoryForm="ngForm" (ngSubmit)="addUpdateCategory(categoryForm)">
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">Name</label>
                       <div class="col-sm-10">
                         <input type="text" class="form-control" name="categoryName" placeholder="Category Name" [(ngModel)]="category.name" #categoryName="ngModel" required>
-                        <div *ngIf="categoryName.invalid && categoryAddForm.submitted" class="alert alert-danger">
+                        <div *ngIf="categoryName.invalid && categoryForm.submitted" class="alert alert-danger">
                             <div *ngIf="categoryName.errors.required">
                               Category Name is required.
                             </div>
@@ -44,9 +44,20 @@
                   <div class="form-group row"><label class="col-sm-2 col-form-label">Category Description</label>
                       <div class="col-sm-10">
                         <textarea type="text" class="form-control" name="categoryDescription" placeholder="Category Description" [(ngModel)]="category.description" #categoryDescription="ngModel" required></textarea>
-                        <div *ngIf="categoryDescription.invalid && categoryAddForm.submitted" class="alert alert-danger">
+                        <div *ngIf="categoryDescription.invalid && categoryForm.submitted" class="alert alert-danger">
                             <div *ngIf="categoryDescription.errors.required">
                               Category Description is required.
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="hr-line-dashed"></div>
+                  <div class="form-group row"><label class="col-sm-2 col-form-label">Category Path</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" name="categoryPath" placeholder="Category Path" [(ngModel)]="category.path" #categoryPath="ngModel" />
+                        <div *ngIf="categoryPath.invalid && categoryForm.submitted" class="alert alert-danger">
+                            <div *ngIf="categoryPath.errors.required">
+                              Category Path is required.
                             </div>
                         </div>
                       </div>
@@ -58,7 +69,7 @@
                           <option value="-1" disabled [selected]="true">Select Category</option>
                           <option *ngFor="let category of categories" value="{{category.id}}">{{category.name}}</option>
                         </select>
-                        <div *ngIf="parentCategory.invalid && categoryAddForm.submitted" class="alert alert-danger">
+                        <div *ngIf="parentCategory.invalid && categoryForm.submitted" class="alert alert-danger">
                             <div *ngIf="parentCategory.errors.required">
                               Parent Category is required.
                             </div>
@@ -68,7 +79,10 @@
                   <div class="hr-line-dashed"></div>
                   <div class="form-group row">
                       <div class="col-sm-4 col-sm-offset-2">
-                          <button class="btn btn-primary btn-sm" type="submit">Save</button>
+                          <a routerLink="/categories">
+                            <button type="button" class="btn btn-white btn-sm">Cancel</button>
+                          </a>
+                          <button class="btn btn-primary btn-sm" type="submit">{{action}}</button>
                       </div>
                   </div>
               </form>

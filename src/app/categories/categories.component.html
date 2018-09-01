@@ -13,7 +13,7 @@
     </div>
     <div class="col-lg-2">
         <a routerLink="/categories/add">
-            <button type="button" class="btn btn-primary btn-lg mt-20">Add Category</button>
+            <button type="button" class="btn btn-primary btn-sm mt-20">Add Category</button>
         </a>
     </div>
 </div>
@@ -30,17 +30,23 @@
                 </div>
                 <div class="ibox-content">
                     <input type="text" class="form-control form-control-sm m-b-xs" id="filter"
-                           placeholder="Search in categories" name="categoryNameSearchText" [(ngModel)]="categoryName" #categoryNameSearchText="ngModel" (keyup)="searchCategory(categoryName)">
+                           placeholder="Search in categories" name="categoryNameSearchText" [(ngModel)]="categoryName" #categoryNameSearchText="ngModel" (keyup)="searchCategories(categoryName)">
 
                     <table class="footable table table-stripped" data-page-size="8" data-filter=#filter>
                         <thead>
                         <tr>
                             <th>Name</th>
+                            <th></th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr *ngFor="let category of categories">
-                          <td>{{category.path}}</td>
+                          <td>{{category.path || category.name}}</td>
+                          <td>
+                              <a routerLink="/categories/edit/{{category.id}}">
+                                <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                              </a>
+                          </td>
                         </tr>
                         </tbody>
                         <tfoot>

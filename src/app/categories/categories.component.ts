@@ -18,12 +18,16 @@ export class CategoriesComponent implements OnInit {
   categoryName: string = "";
   rowsPerPageOptions: number[] = [10,15,20];
 
-  public searchCategory(query: string): void {
-    this.categoryService.getCategories(this.filter).subscribe(result => {
-      let categoryResult = [];
-      categoryResult = result.result.filter(
-                                      (category:Category) => category.path.indexOf(query) !== -1);
-      this.categories = categoryResult;
+  public searchCategories(query: string): void {
+    if(!query) {
+      this.filter.search = "";
+      this.getCategories(this.filter);
+      return;
+    }
+    this.filter.search = query;
+    this.categoryService.searchCategories(this.filter).subscribe(result => {
+      this.totalCategoryRecords = result.totalCount;
+      this.categories =  result.result;
     })
   }
 
@@ -44,10 +48,13 @@ export class CategoriesComponent implements OnInit {
   }
 
   public paginate(event) {
-    console.log(event);
     this.filter.page = event.page + 1;
     this.filter.perPage = event.rows;
-    this.getCategories(this.filter);
+    if(!this.filter.search) {
+      this.getCategories(this.filter);
+      return;
+    }
+    this.searchCategories(this.filter.search);
   }
 
 }

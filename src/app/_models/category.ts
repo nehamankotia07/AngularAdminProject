@@ -1,7 +1,6 @@
 export class Category{
 
   public id: string;
-  public isRoot: boolean;
   public parentCategoryId: string;
   public name: string;
   public description: string;
@@ -12,15 +11,14 @@ export class Category{
   public slug: string;
 
   constructor() {
-      this.id = "";
-      this.isRoot = false;
-      this.parentCategoryId = "-1";
-      this.name = "";
-      this.description = "";
-      this.path = "";
-      this.seoKeywords = "";
-      this.seoTitle = "";
-      this.seoDescription = "";
-      this.slug = "";
+      this.id = null;
+      this.parentCategoryId = "00000000-0000-0000-0000-000000000000";
+      this.name = null;
+      this.description = null;
+      this.path = null;
+      this.seoKeywords = null;
+      this.seoTitle = null;
+      this.seoDescription = null;
+      this.slug = null;
   }
 }

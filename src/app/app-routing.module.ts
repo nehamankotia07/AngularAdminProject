@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: 'ranking', component: RankingComponent },
   { path: 'categories', component: CategoriesComponent },
   { path: 'categories/add', component: AddCategoryComponent },
+  { path: 'categories/edit/:categoryId', component: AddCategoryComponent }
 ];
 
 @NgModule({
