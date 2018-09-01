@@ -13,7 +13,7 @@ import { ToasterService } from 'angular2-toaster';
 export class AddCategoryComponent implements OnInit {
 
   category: Category = new Category();
-  filter: Filter =  new Filter();
+  filter: Filter =  null;
   categories: Category[] = [];
 
   constructor(
@@ -24,7 +24,7 @@ export class AddCategoryComponent implements OnInit {
               ) { }
 
   ngOnInit() {
-    this.getCategories(this.filter);
+    this.getCategories(null);
   }
 
   public getCategories(filter: Filter): void {

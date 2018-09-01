@@ -16,6 +16,7 @@ export class CategoriesComponent implements OnInit {
   categories: Category[] = [];
   totalCategoryRecords: number = 0;
   categoryName: string = "";
+  rowsPerPageOptions: number[] = [10,15,20];
 
   public searchCategory(query: string): void {
     this.categoryService.getCategories(this.filter).subscribe(result => {
@@ -31,6 +32,7 @@ export class CategoriesComponent implements OnInit {
               ) { }
 
   ngOnInit() {
+    this.filter.perPage = this.rowsPerPageOptions[0];
     this.getCategories(this.filter);
   }
 

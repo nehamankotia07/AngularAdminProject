@@ -18,7 +18,7 @@ export class CategoryService {
   public getCategories(filter: Filter): Observable<any> {
     //assets/mock-service-data/categories.json
     //category
-    let queryString: string = `page=${filter.page}&perPage=${filter.perPage}`
+    let queryString: string = (filter && filter.page && filter.perPage) ? `page=${filter.page}&perPage=${filter.perPage}` : "";
     return this.http.get<any>(`category?${queryString}`).pipe(
       tap(results => console.log(results)),
       catchError(this.errorService.handleError('getCategories', []))
