@@ -29,7 +29,8 @@
               "node_modules/angular2-toaster/toaster.min.css",
               "node_modules/primeng/resources/primeng.min.css",
               "node_modules/primeicons/primeicons.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/primeng.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.js",

@@ -50,7 +50,11 @@
                         </tr>
                         </tbody>
                         <tfoot>
-                            <p-paginator (onPageChange)="paginate($event)" [rows]="10" [totalRecords]="totalCategoryRecords" [rowsPerPageOptions]="rowsPerPageOptions" ></p-paginator>
+                            <tr>
+                                <td colspan="2">
+                                    <p-paginator (onPageChange)="paginate($event)" [rows]="10" [totalRecords]="totalCategoryRecords" [rowsPerPageOptions]="rowsPerPageOptions" ></p-paginator>
+                                </td>
+                            </tr>
                         </tfoot>
                         <!-- <tfoot>
                             <tr>
