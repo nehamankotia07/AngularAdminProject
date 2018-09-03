@@ -17,6 +17,8 @@ import { HeaderComponent } from './header/header.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { FooterComponent } from './footer/footer.component';
 import { AddCategoryComponent } from './categories/add-category/add-category.component';
+import { SuppliersComponent } from './suppliers/suppliers.component';
+import { AddSupplierComponent } from './suppliers/add-supplier/add-supplier.component';
 
 
 
@@ -29,7 +31,9 @@ import { AddCategoryComponent } from './categories/add-category/add-category.com
     HeaderComponent,
     CategoriesComponent,
     FooterComponent,
-    AddCategoryComponent
+    AddCategoryComponent,
+    SuppliersComponent,
+    AddSupplierComponent
   ],
   imports: [
     BrowserModule,

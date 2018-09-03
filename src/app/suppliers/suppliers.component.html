@@ -1,0 +1,64 @@
+<!-- Page title bar -->
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Suppliers</h2>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a routerLink="/dashboard">Home</a>
+          </li>
+          <li class="breadcrumb-item active">
+            <strong>Suppliers</strong>
+          </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+        <a routerLink="/suppliers/add">
+            <button type="button" class="btn btn-primary btn-sm mt-20">Add Supplier</button>
+        </a>
+    </div>
+</div>
+<!-- Page content -->
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>Available Suppliers</h5>
+                    <div class="ibox-tools">
+
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <input type="text" class="form-control form-control-sm m-b-xs" id="filter"
+                           placeholder="Search in suppliers" name="supplierNameSearchText" [(ngModel)]="supplierName" #supplierNameSearchText="ngModel" (keyup)="searchSuppliers(supplierName)">
+
+                    <table class="footable table table-stripped" data-page-size="8" data-filter=#filter>
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr *ngFor="let supplier of suppliers">
+                          <td>{{supplier.name}}</td>
+                          <td>
+                              <a routerLink="/suppliers/edit/{{supplier.id}}">
+                                <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                              </a>
+                          </td>
+                        </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">
+                                    <p-paginator (onPageChange)="paginate($event)" [rows]="10" [totalRecords]="totalSupplierRecords" [rowsPerPageOptions]="rowsPerPageOptions" ></p-paginator>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
