@@ -18,7 +18,7 @@ export class Supplier {
 
   constructor() {
       this.id = null;
-      this.name = "00000000-0000-0000-0000-000000000000";
+      this.name = null;
       this.website = null;
       this.salesEmail = null;
       this.orderEmail = null;
