@@ -1,5 +1,5 @@
 import { Address } from  './address'
-import { WareHouse } from './warehouse'
+import { Warehouse } from './warehouse'
 
 export class Supplier {
   public id: string;
@@ -14,7 +14,7 @@ export class Supplier {
   public accountNumber: string;
   public address: Address;
   public paymentTerms: number;
-  public warehouses: WareHouse[];
+  public warehouses: Warehouse[];
 
   constructor() {
       this.id = null;
