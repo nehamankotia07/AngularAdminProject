@@ -13,7 +13,6 @@ import { ToasterService } from 'angular2-toaster';
 export class AddCategoryComponent implements OnInit {
 
   category: Category = new Category();
-  filter: Filter =  null;
   categories: Category[] = [];
   action: string = "Add";
 
@@ -25,7 +24,7 @@ export class AddCategoryComponent implements OnInit {
               ) { }
 
   ngOnInit() {
-    this.getCategories(null);
+    //this.getCategories(null);
     const id = this.route.snapshot.paramMap.get('categoryId');
     if(id) {
       this.action = "Update";
@@ -42,6 +41,15 @@ export class AddCategoryComponent implements OnInit {
   public getCategory(categoryId: string) {
     this.categoryService.getCategory(categoryId).subscribe(result => {
       this.category =  result;
+      if(this.category.parentCategoryId !== null && this.category.parentCategoryId !== "00000000-0000-0000-0000-000000000000") {
+        this.getParentCategory(this.category.parentCategoryId);
+      }
+    })
+  }
+
+  public getParentCategory(categoryId: string) {
+    this.categoryService.getCategory(categoryId).subscribe(result => {
+      this.category.parentCategoryId = result;
     })
   }
 
@@ -50,6 +58,8 @@ export class AddCategoryComponent implements OnInit {
       return;
     }
     if (this.action == "Update") {
+      let cat:any = this.category.parentCategoryId;
+      this.category.parentCategoryId = cat.id;
       this.categoryService.updateCategory(this.category).subscribe(result => {
         this.category =  this.category;
         this.router.navigate(['/categories']);
@@ -58,12 +68,29 @@ export class AddCategoryComponent implements OnInit {
       return;
     }
     let category = Object.assign({}, this.category);
+    let cat:any = category.parentCategoryId;
+    category.parentCategoryId = cat.id;
     delete category.id;
     this.categoryService.addCategory(category).subscribe(result => {
       this.category =  this.category;
       this.router.navigate(['/categories']);
       this.toaster.pop('success', 'Category added successfully.');
     });
+  }
+
+  public searchCategories(query: string): void {
+    if(!query) {
+      this.getCategories(null);
+      return;
+    }
+    this.categoryService.searchCategories({search: query}).subscribe(result => {
+      this.categories =  result.result;
+    })
+  }
+
+  public filterCategories(event) {
+    let query = event.query;
+    this.searchCategories(query);
   }
 
 }

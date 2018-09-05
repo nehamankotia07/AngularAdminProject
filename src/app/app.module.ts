@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ErrorInterceptor } from './_helpers/error.interceptor';
 import { ToasterModule } from 'angular2-toaster';
 import { PaginatorModule } from 'primeng/paginator';
+import { AutoCompleteModule } from 'primeng/autocomplete';
 
 import { AppComponent } from './app.component';
 import { RankingComponent } from './ranking/ranking.component';
@@ -43,6 +44,7 @@ import { AddSupplierComponent } from './suppliers/add-supplier/add-supplier.comp
     HttpClientModule,
     ToasterModule.forRoot(),
     PaginatorModule,
+    AutoCompleteModule,
     BrowserAnimationsModule
   ],
   providers: [
