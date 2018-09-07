@@ -60,6 +60,7 @@ export class AddCategoryComponent implements OnInit {
     if (this.action == "Update") {
       let cat:any = this.category.parentCategoryId;
       this.category.parentCategoryId = cat.id;
+      this.category.slug = ((this.category.slug == "") ? "/" : this.category.slug.replace(/\s/g, "-"));
       this.categoryService.updateCategory(this.category).subscribe(result => {
         this.category =  this.category;
         this.router.navigate(['/categories']);
@@ -71,6 +72,7 @@ export class AddCategoryComponent implements OnInit {
     let cat:any = category.parentCategoryId;
     category.parentCategoryId = cat.id;
     delete category.id;
+    category.slug = ((category.slug == "") ? "/" : category.slug.replace(/\s/g, "-"));
     this.categoryService.addCategory(category).subscribe(result => {
       this.category =  this.category;
       this.router.navigate(['/categories']);

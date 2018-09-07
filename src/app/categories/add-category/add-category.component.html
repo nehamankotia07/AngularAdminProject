@@ -43,7 +43,7 @@
                   <div class="hr-line-dashed"></div>
                   <div class="form-group row"><label class="col-sm-2 col-form-label">Category Description</label>
                       <div class="col-sm-10">
-                        <textarea type="text" class="form-control" name="categoryDescription" placeholder="Category Description" [(ngModel)]="category.description" #categoryDescription="ngModel" required></textarea>
+                        <textarea type="text" class="form-control" name="categoryDescription" placeholder="Category Description" [(ngModel)]="category.description" #categoryDescription="ngModel"></textarea>
                         <div *ngIf="categoryDescription.invalid && categoryForm.submitted" class="alert alert-danger">
                             <div *ngIf="categoryDescription.errors.required">
                               Category Description is required.
@@ -51,7 +51,7 @@
                         </div>
                       </div>
                   </div>
-                  <!-- <div class="hr-line-dashed"></div>
+                  <div class="hr-line-dashed"></div>
                   <div class="form-group row"><label class="col-sm-2 col-form-label">Category Path</label>
                       <div class="col-sm-10">
                         <input type="text" class="form-control" name="categoryPath" placeholder="Category Path" [(ngModel)]="category.path" #categoryPath="ngModel" />
@@ -61,7 +61,51 @@
                             </div>
                         </div>
                       </div>
-                  </div> -->
+                  </div>
+                  <div class="hr-line-dashed"></div>
+                  <div class="form-group row"><label class="col-sm-2 col-form-label">SEO Keywords</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" name="categorySEOKeywords" placeholder="SEO Keywords" [(ngModel)]="category.seoKeywords" #categorySEOKeywords="ngModel" />
+                        <div *ngIf="categorySEOKeywords.invalid && categoryForm.submitted" class="alert alert-danger">
+                            <div *ngIf="categorySEOKeywords.errors.required">
+                              SEO Keywords is required.
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="hr-line-dashed"></div>
+                  <div class="form-group row"><label class="col-sm-2 col-form-label">SEO Title</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" name="categorySEOTitle" placeholder="SEO Title" [(ngModel)]="category.seoTitle" #categorySEOTitle="ngModel" />
+                        <div *ngIf="categorySEOTitle.invalid && categoryForm.submitted" class="alert alert-danger">
+                            <div *ngIf="categorySEOTitle.errors.required">
+                              SEO Title is required.
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="hr-line-dashed"></div>
+                  <div class="form-group row"><label class="col-sm-2 col-form-label">SEO Description</label>
+                      <div class="col-sm-10">
+                        <textarea type="text" class="form-control" name="categorySEODescription" placeholder="SEO Description" [(ngModel)]="category.seoDescription" #categorySEODescription="ngModel"></textarea>
+                        <div *ngIf="categorySEODescription.invalid && categoryForm.submitted" class="alert alert-danger">
+                            <div *ngIf="categorySEODescription.errors.required">
+                              SEO Description is required.
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="hr-line-dashed"></div>
+                  <div class="form-group row"><label class="col-sm-2 col-form-label">Slug</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" name="categorySlug" placeholder="Slug" [(ngModel)]="category.slug" #categorySlug="ngModel" required/>
+                        <div *ngIf="categorySlug.invalid && categoryForm.submitted" class="alert alert-danger">
+                            <div *ngIf="categorySlug.errors.required">
+                              Slug is required.
+                            </div>
+                        </div>
+                      </div>
+                  </div>
                   <div class="hr-line-dashed"></div>
                   <div class="form-group row"><label class="col-sm-2 col-form-label">Parent Category</label>
                       <div class="col-sm-10">
